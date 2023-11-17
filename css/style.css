@@ -6,3 +6,15 @@
 .font-size_social_icon{
     font-size: 25px;
 }
+.icon-facebook, 
+.icon-twitter, 
+.icon-instagram, 
+.icon-linkedin{
+    font-size: 20px;
+}
+.sidebar.-courses .sidebar__title{
+    font-size: 17px; 
+}
+.app-content__title{
+    font-size: 40px;
+}
