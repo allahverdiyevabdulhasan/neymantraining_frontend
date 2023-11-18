@@ -18,7 +18,7 @@
 .app-content__title{
     font-size: 40px;
 }
-/* .text-center{
+.text-center{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,4 +64,4 @@
     background-color: var(--color-purple-1);
     color: white;
 
-} */
+}
