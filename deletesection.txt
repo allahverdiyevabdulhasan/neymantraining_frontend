@@ -399,6 +399,265 @@
               </div> -->
 ----------------------------------HOME FOOTER CATEGORIES END--------------------------------  
 
+----------------------------------HOME PAYMENT START--------------------------------
+<div data-anim-wrap class="row y-gap-30 justify-between pt-60 lg:pt-50">
+            <div class="col-lg-4 col-md-6 card" data-anim-child="slide-right delay-1">
+              <div class="priceCard -type-1 rounded-16 overflow-hidden">
+                
+              </div>
+              <div class="text-center">
+                <div class="img">
+                  <img class="payment" src="./img//home-payment/million.png" alt="">
+                  <img class="payment pt-10" src="./img//home-payment/emanat.png" alt="">
+                </div>
+                <p class="card-Title pt-15">MilliÖn və eManat terminalları vasitəsilə</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 card" data-anim-child="slide-right delay-1">
+              <div class="priceCard -type-1 rounded-16 overflow-hidden">
+                
+                <div class="text-center">
+                  <div>
+                    <img class="payment" src="./img//home-payment/odeme1.png" alt="">
+                    <img class="payment" src="./img//home-payment/odeme2.png" alt="">
+                    <img class="payment" src="./img//home-payment/2.png" alt="">
+                  </div>
+                  <p class="card-Title pt-30">Mobil tətbiqlər üzərindən</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 card" data-anim-child="slide-right delay-1">
+              <div class="priceCard -type-1 rounded-16 overflow-hidden">
+                
+                <div class="text-center">
+                  <div class="img">
+                    <div>
+                      <img class="payment" src="./img//home-payment/mastercard.png" alt="">
+                    </div>
+                    <div>
+                      <img class="payment pt-30" src="./img//home-payment/visa.png" alt="">
+                    </div>
+                  </div>
+                  <p class="card-Title pt-15">Visa və Mastercard vasitəsilə</p>
+                </div>
+              </div>
+            </div>     
+          </div>   
+----------------------------------HOME PAYMENT END--------------------------------
+
+
+----------------------------------HOME PRICING START--------------------------------
+
+<section class="layout-pt-lg layout-pb-lg bg-light-3">
+        <div data-anim-wrap class="container">
+          <div class="row justify-center text-center">
+            <div class="col-auto">
+
+              <div class="sectionTitle ">
+
+                <h2 class="sectionTitle__title ">Ödəniş üsulları</h2>
+
+                <p class="sectionTitle__text ">Lorem ipsum dolor sit amet, consectetur.</p>
+
+              </div>
+
+              <div class="d-flex justify-center items-center pt-60 lg:pt-30">
+                <div class="text-14 text-dark-1">Monthly</div>
+                <div class="form-switch px-20">
+                  <div class="switch" data-switch=".js-switch-content">
+                    <input type="checkbox">
+                    <span class="switch__slider"></span>
+                  </div>
+                </div>
+                <div class="text-14 text-dark-1">Annually <span class="text-purple-1">Save 30%</span></div>
+              </div>
+            </div>
+          </div>
+
+
+           <div data-anim-wrap class="row y-gap-30 justify-between pt-60 lg:pt-50">
+
+            <div class="col-lg-4 col-md-6" data-anim-child="slide-right delay-1">
+              <div class="priceCard -type-1 rounded-16 overflow-hidden">
+
+                <div class="priceCard__header py-40 pl-50 bg-dark-2">
+
+                  <div class="priceCard__type text-18 lh-11 fw-500 text-white">Basic</div>
+                  <div class="priceCard__price text-45 lh-11 fw-700 text-white mt-8">Free</div>
+                  <div class="priceCard__period text-white mt-5">per month</div>
+                </div>
+
+
+                <div class="priceCard__content pt-30 pr-90 pb-50 pl-50 bg-white">
+
+
+                  <div class="priceCard__text">Standard listing submission, active for 30 dayss</div>
+
+
+                  <div class="priceCard__list mt-30">
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      All Operating Supported
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      Great Interface
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      Allows encryption
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      Face recognized system
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      24/7 Full support
+                    </div>
+
+                  </div>
+
+
+                  <div class="priceCard__button mt-30">
+
+                    <a class="button -md -purple-3 text-purple-1" href="courses-list-1.html">Get Started Now</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-anim-child="slide-right delay-2">
+              <div class="priceCard -type-1 rounded-16 overflow-hidden">
+
+                <div class="priceCard__header py-40 pl-50 bg-purple-1">
+
+                  <div class="priceCard__type text-18 lh-11 fw-500 text-white">Professional</div>
+                  <div class="priceCard__price text-45 lh-11 fw-700 text-white mt-8">$599.95</div>
+                  <div class="priceCard__period text-white mt-5">per month</div>
+                </div>
+
+
+                <div class="priceCard__content pt-30 pr-90 pb-50 pl-50 bg-purple-1">
+
+
+                  <div class="priceCard__text text-white">Standard listing submission, active for 30 dayss</div>
+
+
+                  <div class="priceCard__list mt-30">
+
+                    <div class="text-white">
+                      <i class="pr-8" data-feather="check"></i>
+                      All Operating Supported
+                    </div>
+
+                    <div class="text-white">
+                      <i class="pr-8" data-feather="check"></i>
+                      Great Interface
+                    </div>
+
+                    <div class="text-white">
+                      <i class="pr-8" data-feather="check"></i>
+                      Allows encryption
+                    </div>
+
+                    <div class="text-white">
+                      <i class="pr-8" data-feather="check"></i>
+                      Face recognized system
+                    </div>
+
+                    <div class="text-white">
+                      <i class="pr-8" data-feather="check"></i>
+                      24/7 Full support
+                    </div>
+
+                  </div>
+
+
+                  <div class="priceCard__button mt-30">
+
+                    <a class="button -md -white text-purple-1" href="courses-list-1.html">Get Started Now</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-anim-child="slide-right delay-3">
+              <div class="priceCard -type-1 rounded-16 overflow-hidden">
+
+                <div class="priceCard__header py-40 pl-50 bg-dark-2">
+
+                  <div class="priceCard__type text-18 lh-11 fw-500 text-white">Business</div>
+                  <div class="priceCard__price text-45 lh-11 fw-700 text-white mt-8">$999.95</div>
+                  <div class="priceCard__period text-white mt-5">per month</div>
+                </div>
+
+
+                <div class="priceCard__content pt-30 pr-90 pb-50 pl-50 bg-white">
+
+
+                  <div class="priceCard__text">Standard listing submission, active for 30 dayss</div>
+
+
+                  <div class="priceCard__list mt-30">
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      All Operating Supported
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      Great Interface
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      Allows encryption
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      Face recognized system
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      24/7 Full support
+                    </div>
+
+                  </div>
+
+
+                  <div class="priceCard__button mt-30">
+
+                    <a class="button -md -purple-3 text-purple-1" href="courses-list-1.html">Get Started Now</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div> 
+          <!-- <div class="payment-button">
+            <a href="#" target="_blank">Ödəniş Et</a>
+          </div> -->
+        </div>
+
+      </section>
+----------------------------------HOME PRICING END--------------------------------
+
+
 
 
 
