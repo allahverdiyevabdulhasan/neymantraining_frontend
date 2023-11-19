@@ -172,7 +172,7 @@
                               </li>
 
                               <li>
-                                <a href="courses-single-1.html">Course Single v1</a>
+                                <a href="courses-single-4.html">Course Single v1</a>
                               </li>
 
                               <li>
@@ -533,7 +533,7 @@ partnyor
              <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-1">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/1.png" alt="image">
@@ -605,7 +605,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-2">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/2.png" alt="image">
@@ -689,7 +689,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-3">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/3.png" alt="image">
@@ -761,7 +761,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-4">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/4.png" alt="image">
@@ -833,7 +833,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-5">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/5.png" alt="image">
@@ -905,7 +905,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-6">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/6.png" alt="image">
@@ -977,7 +977,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-7">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/7.png" alt="image">
@@ -1049,7 +1049,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-8">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/8.png" alt="image">
@@ -1127,7 +1127,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-1">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/1.png" alt="image">
@@ -1199,7 +1199,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-2">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/2.png" alt="image">
@@ -1283,7 +1283,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-3">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/3.png" alt="image">
@@ -1355,7 +1355,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-4">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/4.png" alt="image">
@@ -1427,7 +1427,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-5">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/5.png" alt="image">
@@ -1499,7 +1499,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-6">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/6.png" alt="image">
@@ -1571,7 +1571,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-7">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/7.png" alt="image">
@@ -1643,7 +1643,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-8">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/8.png" alt="image">
@@ -1735,7 +1735,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-1">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/1.png" alt="image">
@@ -1807,7 +1807,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-2">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/2.png" alt="image">
@@ -1891,7 +1891,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-3">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/3.png" alt="image">
@@ -1963,7 +1963,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-4">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/4.png" alt="image">
@@ -2035,7 +2035,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-5">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/5.png" alt="image">
@@ -2107,7 +2107,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-6">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/6.png" alt="image">
@@ -2179,7 +2179,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-7">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/7.png" alt="image">
@@ -2251,7 +2251,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-8">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/8.png" alt="image">
@@ -2343,7 +2343,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-1">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/1.png" alt="image">
@@ -2415,7 +2415,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-2">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/2.png" alt="image">
@@ -2499,7 +2499,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-3">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/3.png" alt="image">
@@ -2571,7 +2571,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-4">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/4.png" alt="image">
@@ -2643,7 +2643,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-5">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/5.png" alt="image">
@@ -2715,7 +2715,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-6">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/6.png" alt="image">
@@ -2787,7 +2787,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-7">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/7.png" alt="image">
@@ -2859,7 +2859,7 @@ partnyor
                     <div class="swiper-slide">
                       <div data-anim-child="slide-up delay-8">
 
-                        <a href="courses-single-1.html" class="coursesCard -type-1 ">
+                        <a href="courses-single-4.html" class="coursesCard -type-1 ">
                           <div class="relative">
                             <div class="coursesCard__image overflow-hidden rounded-8">
                               <img class="w-1/1" src="img/coursesCards/8.png" alt="image">
