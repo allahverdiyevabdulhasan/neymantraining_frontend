@@ -2717,6 +2717,8 @@ button:focus {
 select,
 input[type="text"],
 input[type="search"],
+input[type="number"],
+input[type="file"],
 textarea,
 input[type="email"] {
   border: 0;
@@ -2726,6 +2728,8 @@ input[type="email"] {
 .-dark-mode form.contact-form input[type="text"],
 .-dark-mode form.contact-form input[type="password"],
 .-dark-mode form.contact-form input[type="search"],
+.-dark-mode form.contact-form input[type="number"],
+.-dark-mode form.contact-form input[type="file"],
 .-dark-mode form.contact-form textarea,
 .-dark-mode form.contact-form input[type="email"] {
   border-color: rgba(255, 255, 255, 0.2);
@@ -2736,6 +2740,8 @@ form.contact-form select,
 form.contact-form input[type="text"],
 form.contact-form input[type="password"],
 form.contact-form input[type="search"],
+form.contact-form input[type="number"],
+form.contact-form input[type="file"],
 form.contact-form textarea,
 form.contact-form input[type="email"] {
   border: 0;
@@ -2754,6 +2760,8 @@ form.contact-form select:focus,
 form.contact-form input[type="text"]:focus,
 form.contact-form input[type="password"]:focus,
 form.contact-form input[type="search"]:focus,
+form.contact-form input[type="number"]:focus,
+form.contact-form input[type="file"]:focus,
 form.contact-form textarea:focus,
 form.contact-form input[type="email"]:focus {
   outline: none;
@@ -2763,6 +2771,8 @@ form.contact-form select.-border-dark,
 form.contact-form input[type="text"].-border-dark,
 form.contact-form input[type="password"].-border-dark,
 form.contact-form input[type="search"].-border-dark,
+form.contact-form input[type="number"].-border-dark,
+form.contact-form input[type="file"].-border-dark,
 form.contact-form textarea.-border-dark,
 form.contact-form input[type="email"].-border-dark {
   border: 1px solid rgba(0, 0, 0, 0.15) !important;
@@ -2788,6 +2798,8 @@ form.contact-form.-light p {
 form.contact-form.-light select,
 form.contact-form.-light input[type="text"],
 form.contact-form.-light input[type="search"],
+form.contact-form.-light input[type="number"],
+form.contact-form.-light input[type="file"],
 form.contact-form.-light textarea,
 form.contact-form.-light input[type="email"] {
   color: white;
@@ -3596,7 +3608,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blogCard.-type-1 .blogCard__category {
-  font-size: 14px;
+  font-size: 11px;
   line-height: 16px;
   font-weight: 400;
   text-transform: uppercase;
@@ -3605,7 +3617,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .blogCard.-type-1 .blogCard__title {
   margin-top: 10px;
-  font-size: 24px;
+  font-size: 19px;
   line-height: 36px;
   font-weight: 500;
   color: #242239;
@@ -6609,7 +6621,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   height: 45px;
   width: 45px;
-  border-radius: 100%;
+  /* border-radius: 100%; */
   background-color: var(--color-light-7);
   color: var(--color-purple-1);
   transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);

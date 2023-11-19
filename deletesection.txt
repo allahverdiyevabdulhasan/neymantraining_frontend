@@ -1,0 +1,669 @@
+---------------------------HOME CATEGORY START-----------------------------------
+            <!-- <div class="col-xl-3 col-md-6" data-anim-child="scale delay-2">
+              <a href="#" class="categoryCard -type-4">
+                <div class="categoryCard__icon bg-light-3">
+                  <i class="icon icon-creative-web"></i>
+                </div>
+                <div class="categoryCard__content mt-10">
+                  <h4 class="categoryCard__title text-17 fw-500">Web Development</h4>
+                  <div class="categoryCard__text text-13 text-light-1 lh-1 mt-5">573+ Courses</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-xl-3 col-md-6" data-anim-child="scale delay-3">
+              <a href="#" class="categoryCard -type-4">
+                <div class="categoryCard__icon bg-light-3">
+                  <i class="icon icon-creative-design"></i>
+                </div>
+                <div class="categoryCard__content mt-10">
+                  <h4 class="categoryCard__title text-17 fw-500">Graphic Design</h4>
+                  <div class="categoryCard__text text-13 text-light-1 lh-1 mt-5">573+ Courses</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-xl-3 col-md-6" data-anim-child="scale delay-4">
+              <a href="#" class="categoryCard -type-4">
+                <div class="categoryCard__icon bg-light-3">
+                  <i class="icon icon-creative-photography"></i>
+                </div>
+                <div class="categoryCard__content mt-10">
+                  <h4 class="categoryCard__title text-17 fw-500">Social Sciences</h4>
+                  <div class="categoryCard__text text-13 text-light-1 lh-1 mt-5">573+ Courses</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-xl-3 col-md-6" data-anim-child="scale delay-5">
+              <a href="#" class="categoryCard -type-4">
+                <div class="categoryCard__icon bg-light-3">
+                  <i class="icon icon-creative-social"></i>
+                </div>
+                <div class="categoryCard__content mt-10">
+                  <h4 class="categoryCard__title text-17 fw-500">Photohraphy</h4>
+                  <div class="categoryCard__text text-13 text-light-1 lh-1 mt-5">573+ Courses</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-xl-3 col-md-6" data-anim-child="scale delay-6">
+              <a href="#" class="categoryCard -type-4">
+                <div class="categoryCard__icon bg-light-3">
+                  <i class="icon icon-creative-art"></i>
+                </div>
+                <div class="categoryCard__content mt-10">
+                  <h4 class="categoryCard__title text-17 fw-500">Art &amp; Humanities</h4>
+                  <div class="categoryCard__text text-13 text-light-1 lh-1 mt-5">573+ Courses</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-xl-3 col-md-6" data-anim-child="scale delay-7">
+              <a href="#" class="categoryCard -type-4">
+                <div class="categoryCard__icon bg-light-3">
+                  <i class="icon icon-creative-personal"></i>
+                </div>
+                <div class="categoryCard__content mt-10">
+                  <h4 class="categoryCard__title text-17 fw-500">Personal Development</h4>
+                  <div class="categoryCard__text text-13 text-light-1 lh-1 mt-5">573+ Courses</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-xl-3 col-md-6" data-anim-child="scale delay-8">
+              <a href="#" class="categoryCard -type-4">
+                <div class="categoryCard__icon bg-light-3">
+                  <i class="icon icon-creative-software"></i>
+                </div>
+                <div class="categoryCard__content mt-10">
+                  <h4 class="categoryCard__title text-17 fw-500">IT and Software</h4>
+                  <div class="categoryCard__text text-13 text-light-1 lh-1 mt-5">573+ Courses</div>
+                </div>
+              </a>
+            </div> -->
+
+------------------------------HOME CATEGORY END------------------------------
+
+
+
+-----------------------------HOME INSTRUCTOR START---------------------------  
+
+            <!-- <div class="col-lg-3 col-sm-6">
+              <div data-anim-child="slide-left delay-3" class="teamCard -type-1 -teamCard-hover">
+                <div class="teamCard__image">
+                  <img src="img/team/2.png" alt="image">
+                  <div class="teamCard__socials">
+                    <div class="d-flex x-gap-20 y-gap-10 justify-center items-center h-100">
+                      <a href="#"><i class="icon-facebook text-white"></i></a>
+                      <a href="#"><i class="icon-twitter text-white"></i></a>
+                      <a href="#"><i class="icon-instagram text-white"></i></a>
+                      <a href="#"><i class="icon-linkedin text-white"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="teamCard__content">
+                  <h4 class="teamCard__title">Cameron Williamson</h4>
+                  <p class="teamCard__text">Web Designer</p>
+
+                  <div class="row items-center y-gap-10 x-gap-10 pt-10">
+                    <div class="col-auto">
+                      <div class="d-flex items-center">
+                        <div class="icon-star text-yellow-1 text-11 mr-5"></div>
+                        <div class="text-14 lh-12 text-yellow-1 fw-500">4.5</div>
+                      </div>
+                    </div>
+
+                    <div class="col-auto">
+                      <div class="d-flex items-center">
+                        <div class="icon-online-learning text-light-1 text-11 mr-5"></div>
+                        <div class="text-14 lh-12">692 Students</div>
+                      </div>
+                    </div>
+
+                    <div class="col-auto">
+                      <div class="d-flex items-center">
+                        <div class="icon-play text-light-1 text-11 mr-5"></div>
+                        <div class="text-14 lh-12">15 Course</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div data-anim-child="slide-left delay-4" class="teamCard -type-1 -teamCard-hover">
+                <div class="teamCard__image">
+                  <img src="img/team/3.png" alt="image">
+                  <div class="teamCard__socials">
+                    <div class="d-flex x-gap-20 y-gap-10 justify-center items-center h-100">
+                      <a href="#"><i class="icon-facebook text-white"></i></a>
+                      <a href="#"><i class="icon-twitter text-white"></i></a>
+                      <a href="#"><i class="icon-instagram text-white"></i></a>
+                      <a href="#"><i class="icon-linkedin text-white"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="teamCard__content">
+                  <h4 class="teamCard__title">Brooklyn Simmons</h4>
+                  <p class="teamCard__text">Dog Trainer</p>
+
+                  <div class="row items-center y-gap-10 x-gap-10 pt-10">
+                    <div class="col-auto">
+                      <div class="d-flex items-center">
+                        <div class="icon-star text-yellow-1 text-11 mr-5"></div>
+                        <div class="text-14 lh-12 text-yellow-1 fw-500">4.5</div>
+                      </div>
+                    </div>
+
+                    <div class="col-auto">
+                      <div class="d-flex items-center">
+                        <div class="icon-online-learning text-light-1 text-11 mr-5"></div>
+                        <div class="text-14 lh-12">692 Students</div>
+                      </div>
+                    </div>
+
+                    <div class="col-auto">
+                      <div class="d-flex items-center">
+                        <div class="icon-play text-light-1 text-11 mr-5"></div>
+                        <div class="text-14 lh-12">15 Course</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div data-anim-child="slide-left delay-5" class="teamCard -type-1 -teamCard-hover">
+                <div class="teamCard__image">
+                  <img src="img/team/4.png" alt="image">
+                  <div class="teamCard__socials">
+                    <div class="d-flex x-gap-20 y-gap-10 justify-center items-center h-100">
+                      <a href="#"><i class="icon-facebook text-white"></i></a>
+                      <a href="#"><i class="icon-twitter text-white"></i></a>
+                      <a href="#"><i class="icon-instagram text-white"></i></a>
+                      <a href="#"><i class="icon-linkedin text-white"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="teamCard__content">
+                  <h4 class="teamCard__title">Wade Warren</h4>
+                  <p class="teamCard__text">Marketing Coordinator</p>
+
+                  <div class="row items-center y-gap-10 x-gap-10 pt-10">
+                    <div class="col-auto">
+                      <div class="d-flex items-center">
+                        <div class="icon-star text-yellow-1 text-11 mr-5"></div>
+                        <div class="text-14 lh-12 text-yellow-1 fw-500">4.5</div>
+                      </div>
+                    </div>
+
+                    <div class="col-auto">
+                      <div class="d-flex items-center">
+                        <div class="icon-online-learning text-light-1 text-11 mr-5"></div>
+                        <div class="text-14 lh-12">692 Students</div>
+                      </div>
+                    </div>
+
+                    <div class="col-auto">
+                      <div class="d-flex items-center">
+                        <div class="icon-play text-light-1 text-11 mr-5"></div>
+                        <div class="text-14 lh-12">15 Course</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+
+-------------------------------HOME INSTRUCTOR END-------------------------------- 
+
+
+-------------------------------HOME STUDENT START----------------------------------
+
+            <!-- <div class="col-lg-3 col-md-6" data-anim-child="slide-right delay-2">
+              <div class="teamCard -type-2 bg-white">
+                <div class="teamCard__content">
+                  <div class="teamCard__img">
+                    <img src="img/home-2/students/2.png" alt="image">
+                  </div>
+
+                  <h4 class="teamCard__title text-17 lh-15 fw-500 mt-12">Cody Fisher</h4>
+                  <div class="teamCard__subtitle text-14 lh-1 mt-5">Dog Trainer</div>
+
+                  <div class="teamCard__socials d-flex x-gap-20 pt-12">
+                    <a href="#">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </div>
+
+                  <div class="teamCard-tags pt-20">
+                    <div class="teamCard-tags__item">
+                      <div class="teamCard-tags__tag">Design</div>
+                    </div>
+                    <div class="teamCard-tags__item">
+                      <div class="teamCard-tags__tag">Art</div>
+                    </div>
+                    <div class="teamCard-tags__item">
+                      <div class="teamCard-tags__tag">Graphic</div>
+                    </div>
+                  </div>
+
+                  <div class="teamCard__button mt-20">
+                    <a href="#" class="button -icon -outline-purple-1 -rounded text-purple-1">
+                      View Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6" data-anim-child="slide-right delay-3">
+              <div class="teamCard -type-2 bg-white">
+                <div class="teamCard__content">
+                  <div class="teamCard__img">
+                    <img src="img/home-2/students/3.png" alt="image">
+                  </div>
+
+                  <h4 class="teamCard__title text-17 lh-15 fw-500 mt-12">Marvin McKinney</h4>
+                  <div class="teamCard__subtitle text-14 lh-1 mt-5">President of Sales</div>
+
+                  <div class="teamCard__socials d-flex x-gap-20 pt-12">
+                    <a href="#">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </div>
+
+                  <div class="teamCard-tags pt-20">
+                    <div class="teamCard-tags__item">
+                      <div class="teamCard-tags__tag">Design</div>
+                    </div>
+                    <div class="teamCard-tags__item">
+                      <div class="teamCard-tags__tag">Art</div>
+                    </div>
+                    <div class="teamCard-tags__item">
+                      <div class="teamCard-tags__tag">Graphic</div>
+                    </div>
+                  </div>
+
+                  <div class="teamCard__button mt-20">
+                    <a href="#" class="button -icon -outline-purple-1 -rounded text-purple-1">
+                      View Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6" data-anim-child="slide-right delay-4">
+              <div class="teamCard -type-2 bg-white">
+                <div class="teamCard__content">
+                  <div class="teamCard__img">
+                    <img src="img/home-2/students/4.png" alt="image">
+                  </div>
+
+                  <h4 class="teamCard__title text-17 lh-15 fw-500 mt-12">Jane Cooper</h4>
+                  <div class="teamCard__subtitle text-14 lh-1 mt-5">Marketing Coordinator</div>
+
+                  <div class="teamCard__socials d-flex x-gap-20 pt-12">
+                    <a href="#">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </div>
+
+                  <div class="teamCard-tags pt-20">
+                    <div class="teamCard-tags__item">
+                      <div class="teamCard-tags__tag">Design</div>
+                    </div>
+                    <div class="teamCard-tags__item">
+                      <div class="teamCard-tags__tag">Art</div>
+                    </div>
+                    <div class="teamCard-tags__item">
+                      <div class="teamCard-tags__tag">Graphic</div>
+                    </div>
+                  </div>
+
+                  <div class="teamCard__button mt-20">
+                    <a href="#" class="button -icon -outline-purple-1 -rounded text-purple-1">
+                      View Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+----------------------------------HOME STUDENT END--------------------------------  
+
+
+
+----------------------------------HOME FOOTER CATEGORIES START--------------------------------  
+              <!-- <div class="col-xl-4 col-lg-8">
+                <div class="text-17 fw-500 text-white uppercase mb-25">CATEGORIES</div>
+                <div class="row justify-between y-gap-20">
+                  <div class="col-md-6">
+                    <div class="d-flex y-gap-10 flex-column">
+                      <a href="courses-single-4.html">Development</a>
+                      <a href="courses-single-2.html">Business</a>
+                      <a href="courses-single-3.html">Finance & Accounting</a>
+                      <a href="courses-single-4.html">IT & Software</a>
+                      <a href="courses-single-5.html">Office Productivity</a>
+                      <a href="courses-single-6.html">Design</a>
+                      <a href="courses-single-4.html">Marketing</a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="d-flex y-gap-10 flex-column">
+                      <a href="courses-single-4.html">Lifiestyle</a>
+                      <a href="courses-single-2.html">Photography & Video</a>
+                      <a href="courses-single-3.html">Health & Fitness</a>
+                      <a href="courses-single-4.html">Music</a>
+                      <a href="courses-single-5.html">UX Design</a>
+                      <a href="courses-single-6.html">Seo</a>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+----------------------------------HOME FOOTER CATEGORIES END--------------------------------  
+
+----------------------------------HOME PAYMENT START--------------------------------
+<div data-anim-wrap class="row y-gap-30 justify-between pt-60 lg:pt-50">
+            <div class="col-lg-4 col-md-6 card" data-anim-child="slide-right delay-1">
+              <div class="priceCard -type-1 rounded-16 overflow-hidden">
+                
+              </div>
+              <div class="text-center">
+                <div class="img">
+                  <img class="payment" src="./img//home-payment/million.png" alt="">
+                  <img class="payment pt-10" src="./img//home-payment/emanat.png" alt="">
+                </div>
+                <p class="card-Title pt-15">MilliÖn və eManat terminalları vasitəsilə</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 card" data-anim-child="slide-right delay-1">
+              <div class="priceCard -type-1 rounded-16 overflow-hidden">
+                
+                <div class="text-center">
+                  <div>
+                    <img class="payment" src="./img//home-payment/odeme1.png" alt="">
+                    <img class="payment" src="./img//home-payment/odeme2.png" alt="">
+                    <img class="payment" src="./img//home-payment/2.png" alt="">
+                  </div>
+                  <p class="card-Title pt-30">Mobil tətbiqlər üzərindən</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 card" data-anim-child="slide-right delay-1">
+              <div class="priceCard -type-1 rounded-16 overflow-hidden">
+                
+                <div class="text-center">
+                  <div class="img">
+                    <div>
+                      <img class="payment" src="./img//home-payment/mastercard.png" alt="">
+                    </div>
+                    <div>
+                      <img class="payment pt-30" src="./img//home-payment/visa.png" alt="">
+                    </div>
+                  </div>
+                  <p class="card-Title pt-15">Visa və Mastercard vasitəsilə</p>
+                </div>
+              </div>
+            </div>     
+          </div>   
+----------------------------------HOME PAYMENT END--------------------------------
+
+
+----------------------------------HOME PRICING START--------------------------------
+
+<section class="layout-pt-lg layout-pb-lg bg-light-3">
+        <div data-anim-wrap class="container">
+          <div class="row justify-center text-center">
+            <div class="col-auto">
+
+              <div class="sectionTitle ">
+
+                <h2 class="sectionTitle__title ">Ödəniş üsulları</h2>
+
+                <p class="sectionTitle__text ">Lorem ipsum dolor sit amet, consectetur.</p>
+
+              </div>
+
+              <div class="d-flex justify-center items-center pt-60 lg:pt-30">
+                <div class="text-14 text-dark-1">Monthly</div>
+                <div class="form-switch px-20">
+                  <div class="switch" data-switch=".js-switch-content">
+                    <input type="checkbox">
+                    <span class="switch__slider"></span>
+                  </div>
+                </div>
+                <div class="text-14 text-dark-1">Annually <span class="text-purple-1">Save 30%</span></div>
+              </div>
+            </div>
+          </div>
+
+
+           <div data-anim-wrap class="row y-gap-30 justify-between pt-60 lg:pt-50">
+
+            <div class="col-lg-4 col-md-6" data-anim-child="slide-right delay-1">
+              <div class="priceCard -type-1 rounded-16 overflow-hidden">
+
+                <div class="priceCard__header py-40 pl-50 bg-dark-2">
+
+                  <div class="priceCard__type text-18 lh-11 fw-500 text-white">Basic</div>
+                  <div class="priceCard__price text-45 lh-11 fw-700 text-white mt-8">Free</div>
+                  <div class="priceCard__period text-white mt-5">per month</div>
+                </div>
+
+
+                <div class="priceCard__content pt-30 pr-90 pb-50 pl-50 bg-white">
+
+
+                  <div class="priceCard__text">Standard listing submission, active for 30 dayss</div>
+
+
+                  <div class="priceCard__list mt-30">
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      All Operating Supported
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      Great Interface
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      Allows encryption
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      Face recognized system
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      24/7 Full support
+                    </div>
+
+                  </div>
+
+
+                  <div class="priceCard__button mt-30">
+
+                    <a class="button -md -purple-3 text-purple-1" href="courses-list-1.html">Get Started Now</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-anim-child="slide-right delay-2">
+              <div class="priceCard -type-1 rounded-16 overflow-hidden">
+
+                <div class="priceCard__header py-40 pl-50 bg-purple-1">
+
+                  <div class="priceCard__type text-18 lh-11 fw-500 text-white">Professional</div>
+                  <div class="priceCard__price text-45 lh-11 fw-700 text-white mt-8">$599.95</div>
+                  <div class="priceCard__period text-white mt-5">per month</div>
+                </div>
+
+
+                <div class="priceCard__content pt-30 pr-90 pb-50 pl-50 bg-purple-1">
+
+
+                  <div class="priceCard__text text-white">Standard listing submission, active for 30 dayss</div>
+
+
+                  <div class="priceCard__list mt-30">
+
+                    <div class="text-white">
+                      <i class="pr-8" data-feather="check"></i>
+                      All Operating Supported
+                    </div>
+
+                    <div class="text-white">
+                      <i class="pr-8" data-feather="check"></i>
+                      Great Interface
+                    </div>
+
+                    <div class="text-white">
+                      <i class="pr-8" data-feather="check"></i>
+                      Allows encryption
+                    </div>
+
+                    <div class="text-white">
+                      <i class="pr-8" data-feather="check"></i>
+                      Face recognized system
+                    </div>
+
+                    <div class="text-white">
+                      <i class="pr-8" data-feather="check"></i>
+                      24/7 Full support
+                    </div>
+
+                  </div>
+
+
+                  <div class="priceCard__button mt-30">
+
+                    <a class="button -md -white text-purple-1" href="courses-list-1.html">Get Started Now</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-anim-child="slide-right delay-3">
+              <div class="priceCard -type-1 rounded-16 overflow-hidden">
+
+                <div class="priceCard__header py-40 pl-50 bg-dark-2">
+
+                  <div class="priceCard__type text-18 lh-11 fw-500 text-white">Business</div>
+                  <div class="priceCard__price text-45 lh-11 fw-700 text-white mt-8">$999.95</div>
+                  <div class="priceCard__period text-white mt-5">per month</div>
+                </div>
+
+
+                <div class="priceCard__content pt-30 pr-90 pb-50 pl-50 bg-white">
+
+
+                  <div class="priceCard__text">Standard listing submission, active for 30 dayss</div>
+
+
+                  <div class="priceCard__list mt-30">
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      All Operating Supported
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      Great Interface
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      Allows encryption
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      Face recognized system
+                    </div>
+
+                    <div>
+                      <i class="text-purple-1 pr-8" data-feather="check"></i>
+                      24/7 Full support
+                    </div>
+
+                  </div>
+
+
+                  <div class="priceCard__button mt-30">
+
+                    <a class="button -md -purple-3 text-purple-1" href="courses-list-1.html">Get Started Now</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div> 
+          <!-- <div class="payment-button">
+            <a href="#" target="_blank">Ödəniş Et</a>
+          </div> -->
+        </div>
+
+      </section>
+----------------------------------HOME PRICING END--------------------------------
+
+
+
+
+
+
+
+
+
+
+
