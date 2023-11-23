@@ -65,6 +65,14 @@
     color: white;
 
 }
+.form-page__content .col-xl-6{
+    width: 75%;
+    padding-top: 100px;
+}
+.form-page__content .col-xl-8{
+    width: 75%;
+    padding-top: 100px;
+}
 
 /* blog kateqoriya scrool bar */
 .scrool_auto{
