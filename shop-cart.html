@@ -9,18 +9,27 @@
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/base.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
 
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/vendors.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <title>Educrat</title>
 </head>
@@ -1022,7 +1031,7 @@
               <div class="col-auto">
                 <div data-anim="slide-up delay-1">
 
-                  <h1 class="page-header__title">Shop List</h1>
+                  <h1 class="page-header__title">Shop Cart</h1>
 
                 </div>
 
@@ -1040,443 +1049,246 @@
 
       <section class="layout-pt-md layout-pb-lg">
         <div class="container">
-          <div class="row x-gap-60">
-            <div class="col-lg-3">
-
-              <div data-anim="slide-up delay-3" class="sidebar -shop">
-                <div class="sidebar__item">
-
-                  <div class="sidebar__search mb-30">
-                    <div class="search">
-                      <form action="post">
-                        <button class="submit" type="submit">
-                          <i class="icon" data-feather="search"></i>
-                        </button>
-                        <input class="field" type="text" placeholder="Search">
-                      </form>
-                    </div>
+          <div class="row justify-end">
+            <div class="col-12">
+              <div class="px-30 pr-60 py-25 rounded-8 bg-light-6 md:d-none">
+                <div class="row justify-between">
+                  <div class="col-md-4">
+                    <div class="fw-500 text-purple-1">Product</div>
                   </div>
-
-                  <h5 class="sidebar__title">Categories</h5>
-
-                  <div class="sidebar-content -list">
-
-                    <a class="text-dark-1" href="#">College</a>
-
-                    <a class="text-dark-1" href="#">Gym</a>
-
-                    <a class="text-dark-1" href="#">High School</a>
-
-                    <a class="text-dark-1" href="#">Primary</a>
-
-                    <a class="text-dark-1" href="#">School</a>
-
-                    <a class="text-dark-1" href="#">University</a>
-
+                  <div class="col-md-2">
+                    <div class="fw-500 text-purple-1">Price</div>
                   </div>
-                </div>
-
-                <div class="sidebar__item">
-                  <h5 class="sidebar__title">Filter by price</h5>
-
-                  <div class="sidebar-content -slider">
-                    <div class="js-price-rangeSlider">
-                      <div class="px-5">
-                        <div class="js-slider"></div>
-                      </div>
-
-                      <div class="mt-25">
-                        <div class="d-flex items-center justify-between text-14">
-                          <span>Min Price: <span class="js-lower"></span></span>
-                          <span>Max Price: <span class="js-upper"></span></span>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="col-md-2">
+                    <div class="fw-500 text-purple-1">Quantity</div>
                   </div>
-                </div>
-
-                <div class="sidebar__item">
-                  <h5 class="sidebar__title">Tags</h5>
-
-                  <div class="sidebar-content -tags">
-
-                    <div class="sidebar-tag">
-                      <a class="text-11 fw-500 text-dark-1" href="#">Courses</a>
+                  <div class="col-md-2">
+                    <div class="fw-500 text-purple-1">Subtotal</div>
+                  </div>
+                  <div class="col-md-1">
+                    <div class="d-flex justify-end">
+                      <div class="fw-500 text-purple-1">Remove</div>
                     </div>
-
-                    <div class="sidebar-tag">
-                      <a class="text-11 fw-500 text-dark-1" href="#">Learn</a>
-                    </div>
-
-                    <div class="sidebar-tag">
-                      <a class="text-11 fw-500 text-dark-1" href="#">Online</a>
-                    </div>
-
-                    <div class="sidebar-tag">
-                      <a class="text-11 fw-500 text-dark-1" href="#">Education</a>
-                    </div>
-
-                    <div class="sidebar-tag">
-                      <a class="text-11 fw-500 text-dark-1" href="#">LMS</a>
-                    </div>
-
-                    <div class="sidebar-tag">
-                      <a class="text-11 fw-500 text-dark-1" href="#">Training</a>
-                    </div>
-
                   </div>
                 </div>
               </div>
 
+              <div class="px-30 pr-60 md:px-0">
+
+                <div class="row y-gap-20 justify-between items-center pt-30 pb-30 border-bottom-light">
+                  <div class="col-md-4">
+                    <div class="d-flex items-center">
+                      <div class="">
+                        <div class="size-100 bg-image rounded-8 js-lazy" data-bg="img/shop/products/1.png"></div>
+                      </div>
+                      <div class="fw-500 text-dark-1 ml-30">Cosy Chair - Beige, Leather</div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-2 md:mt-15">
+                    <div class="">
+                      <div class="shopCart-products__title d-none md:d-block mb-10">
+                        Price
+                      </div>
+                      <p>$298</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="">
+                      <div class="shopCart-products__title d-none md:d-block mb-10">
+                        Quantity
+                      </div>
+
+                      <div class="input-counter md:mt-20 js-input-counter">
+                        <input class='input-counter__counter' type="number" placeholder="value..." value='1' />
+
+                        <div class="input-counter__controls">
+                          <button class='input-counter__up js-down'>
+                            <i class='icon' data-feather="minus"></i>
+                          </button>
+
+                          <button class='input-counter__down js-up'>
+                            <i class='icon' data-feather="plus"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-1">
+                    <div class="">
+                      <div class="shopCart-products__title d-none md:d-block mb-10">
+                        Subtotal
+                      </div>
+
+                      <p>$1.298</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-1">
+                    <div class="md:d-none d-flex justify-end">
+                      <i class="icon" data-feather="x"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row y-gap-20 justify-between items-center pt-30 pb-30 border-bottom-light">
+                  <div class="col-md-4">
+                    <div class="d-flex items-center">
+                      <div class="">
+                        <div class="size-100 bg-image rounded-8 js-lazy" data-bg="img/shop/products/2.png"></div>
+                      </div>
+                      <div class="fw-500 text-dark-1 ml-30">Cosy Chair - Beige, Leather</div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-2 md:mt-15">
+                    <div class="">
+                      <div class="shopCart-products__title d-none md:d-block mb-10">
+                        Price
+                      </div>
+                      <p>$298</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="">
+                      <div class="shopCart-products__title d-none md:d-block mb-10">
+                        Quantity
+                      </div>
+
+                      <div class="input-counter md:mt-20 js-input-counter">
+                        <input class='input-counter__counter' type="number" placeholder="value..." value='1' />
+
+                        <div class="input-counter__controls">
+                          <button class='input-counter__up js-down'>
+                            <i class='icon' data-feather="minus"></i>
+                          </button>
+
+                          <button class='input-counter__down js-up'>
+                            <i class='icon' data-feather="plus"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-1">
+                    <div class="">
+                      <div class="shopCart-products__title d-none md:d-block mb-10">
+                        Subtotal
+                      </div>
+
+                      <p>$1.298</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-1">
+                    <div class="md:d-none d-flex justify-end">
+                      <i class="icon" data-feather="x"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row y-gap-20 justify-between items-center pt-30 pb-30 border-bottom-light">
+                  <div class="col-md-4">
+                    <div class="d-flex items-center">
+                      <div class="">
+                        <div class="size-100 bg-image rounded-8 js-lazy" data-bg="img/shop/products/3.png"></div>
+                      </div>
+                      <div class="fw-500 text-dark-1 ml-30">Cosy Chair - Beige, Leather</div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-2 md:mt-15">
+                    <div class="">
+                      <div class="shopCart-products__title d-none md:d-block mb-10">
+                        Price
+                      </div>
+                      <p>$298</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="">
+                      <div class="shopCart-products__title d-none md:d-block mb-10">
+                        Quantity
+                      </div>
+
+                      <div class="input-counter md:mt-20 js-input-counter">
+                        <input class='input-counter__counter' type="number" placeholder="value..." value='1' />
+
+                        <div class="input-counter__controls">
+                          <button class='input-counter__up js-down'>
+                            <i class='icon' data-feather="minus"></i>
+                          </button>
+
+                          <button class='input-counter__down js-up'>
+                            <i class='icon' data-feather="plus"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-1">
+                    <div class="">
+                      <div class="shopCart-products__title d-none md:d-block mb-10">
+                        Subtotal
+                      </div>
+
+                      <p>$1.298</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-1">
+                    <div class="md:d-none d-flex justify-end">
+                      <i class="icon" data-feather="x"></i>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="shopCart-footer px-16 mt-30">
+                <div class="row justify-between y-gap-30">
+                  <div class="col-xl-5">
+                    <form class="" action="post">
+                      <div class="d-flex justify-between border-dark">
+                        <input class="rounded-8 px-25 py-20" type="text" placeholder="Coupon Code">
+                        <button class="text-black fw-500" type="submit">Apply coupon</button>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="col-auto">
+                    <div class="shopCart-footer__item">
+                      <button class="button -md -purple-3 text-purple-1">Update cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div class="col-lg-9">
-              <div class="row y-gap-10 justify-between items-center">
-                <div class="col-auto">
-                  <div class="text-14">
-                    Showing <span class="fw-500 text-dark-1">250</span> total results
-                  </div>
+            <div class="col-xl-4 col-lg-5 layout-pt-lg">
+              <div class="py-30 bg-light-4 rounded-8 border-light">
+                <h5 class="px-30 text-20 fw-500">
+                  Cart Totals
+                </h5>
+
+                <div class="d-flex justify-between px-30 item mt-25">
+                  <div class="py-15 fw-500 text-dark-1">Subtotal</div>
+                  <div class="py-15 fw-500 text-dark-1">$1.298</div>
                 </div>
 
-                <div class="col-auto">
-                  <div class="d-flex items-center">
-                    <div class="fw-500 text-dark-1 mr-20">
-                      Sort by:
-                    </div>
-
-                    <div class="dropdown js-shop-dropdown">
-                      <div class="d-flex items-center text-14">
-                        <span class="js-dropdown-title">
-                          Default Sorting
-                        </span>
-                        <i class="icon size-20 ml-40" data-feather="chevron-down"></i>
-                      </div>
-
-                      <div class="dropdown__item">
-                        <div class="text-14 y-gap-15 js-dropdown-list">
-                          <div>
-                            <a class="d-block decoration-none js-dropdown-link" href="#">Default Sorting</a>
-                          </div>
-                          <div>
-                            <a class="d-block decoration-none js-dropdown-link" href="#">Clothing</a>
-                          </div>
-                          <div>
-                            <a class="d-block decoration-none js-dropdown-link" href="#">Glasses</a>
-                          </div>
-                          <div>
-                            <a class="d-block decoration-none js-dropdown-link" href="#">T-Shirts</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="d-flex justify-between px-30 item border-top-dark">
+                  <div class="pt-15 fw-500 text-dark-1">Total</div>
+                  <div class="pt-15 fw-500 text-dark-1">$3.298</div>
                 </div>
               </div>
 
-              <div class="row y-gap-30 pt-30">
-
-                <div class="col-lg-4 col-sm-6">
-                  <div class="productCard -type-1 text-center">
-                    <div class="productCard__image">
-                      <img src="img/shop/products/1.png" alt="Product image">
-
-                      <div class="productCard__controls">
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="eye"></i>
-                        </a>
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="heart"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="productCard__content mt-20">
-                      <div class="text-14 lh-1">
-                        <a href="#">Clothing</a>,
-                        <a href="#">Glasses</a>,
-                        <a href="#">T-Shirts</a>
-                      </div>
-                      <h4 class="text-17 fw-500 mt-15">Wall Clock Brown</h4>
-                      <div class="text-17 fw-500 text-purple-1 mt-15">$55.00</div>
-
-                      <div class="productCard__button d-inline-block">
-                        <a href="#" class="button -md -outline-purple-1 text-dark-1 mt-15">Add To Cart</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                  <div class="productCard -type-1 text-center">
-                    <div class="productCard__image">
-                      <img src="img/shop/products/2.png" alt="Product image">
-
-                      <div class="productCard__controls">
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="eye"></i>
-                        </a>
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="heart"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="productCard__content mt-20">
-                      <div class="text-14 lh-1">
-                        <a href="#">Clothing</a>,
-                        <a href="#">Glasses</a>,
-                        <a href="#">T-Shirts</a>
-                      </div>
-                      <h4 class="text-17 fw-500 mt-15">Wall Clock Brown</h4>
-                      <div class="text-17 fw-500 text-purple-1 mt-15">$55.00</div>
-
-                      <div class="productCard__button d-inline-block">
-                        <a href="#" class="button -md -outline-purple-1 text-dark-1 mt-15">Add To Cart</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                  <div class="productCard -type-1 text-center">
-                    <div class="productCard__image">
-                      <img src="img/shop/products/3.png" alt="Product image">
-
-                      <div class="productCard__controls">
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="eye"></i>
-                        </a>
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="heart"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="productCard__content mt-20">
-                      <div class="text-14 lh-1">
-                        <a href="#">Clothing</a>,
-                        <a href="#">Glasses</a>,
-                        <a href="#">T-Shirts</a>
-                      </div>
-                      <h4 class="text-17 fw-500 mt-15">Wall Clock Brown</h4>
-                      <div class="text-17 fw-500 text-purple-1 mt-15">$55.00</div>
-
-                      <div class="productCard__button d-inline-block">
-                        <a href="#" class="button -md -outline-purple-1 text-dark-1 mt-15">Add To Cart</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                  <div class="productCard -type-1 text-center">
-                    <div class="productCard__image">
-                      <img src="img/shop/products/4.png" alt="Product image">
-
-                      <div class="productCard__controls">
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="eye"></i>
-                        </a>
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="heart"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="productCard__content mt-20">
-                      <div class="text-14 lh-1">
-                        <a href="#">Clothing</a>,
-                        <a href="#">Glasses</a>,
-                        <a href="#">T-Shirts</a>
-                      </div>
-                      <h4 class="text-17 fw-500 mt-15">Wall Clock Brown</h4>
-                      <div class="text-17 fw-500 text-purple-1 mt-15">$55.00</div>
-
-                      <div class="productCard__button d-inline-block">
-                        <a href="#" class="button -md -outline-purple-1 text-dark-1 mt-15">Add To Cart</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                  <div class="productCard -type-1 text-center">
-                    <div class="productCard__image">
-                      <img src="img/shop/products/5.png" alt="Product image">
-
-                      <div class="productCard__controls">
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="eye"></i>
-                        </a>
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="heart"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="productCard__content mt-20">
-                      <div class="text-14 lh-1">
-                        <a href="#">Clothing</a>,
-                        <a href="#">Glasses</a>,
-                        <a href="#">T-Shirts</a>
-                      </div>
-                      <h4 class="text-17 fw-500 mt-15">Wall Clock Brown</h4>
-                      <div class="text-17 fw-500 text-purple-1 mt-15">$55.00</div>
-
-                      <div class="productCard__button d-inline-block">
-                        <a href="#" class="button -md -outline-purple-1 text-dark-1 mt-15">Add To Cart</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                  <div class="productCard -type-1 text-center">
-                    <div class="productCard__image">
-                      <img src="img/shop/products/6.png" alt="Product image">
-
-                      <div class="productCard__controls">
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="eye"></i>
-                        </a>
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="heart"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="productCard__content mt-20">
-                      <div class="text-14 lh-1">
-                        <a href="#">Clothing</a>,
-                        <a href="#">Glasses</a>,
-                        <a href="#">T-Shirts</a>
-                      </div>
-                      <h4 class="text-17 fw-500 mt-15">Wall Clock Brown</h4>
-                      <div class="text-17 fw-500 text-purple-1 mt-15">$55.00</div>
-
-                      <div class="productCard__button d-inline-block">
-                        <a href="#" class="button -md -outline-purple-1 text-dark-1 mt-15">Add To Cart</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                  <div class="productCard -type-1 text-center">
-                    <div class="productCard__image">
-                      <img src="img/shop/products/7.png" alt="Product image">
-
-                      <div class="productCard__controls">
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="eye"></i>
-                        </a>
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="heart"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="productCard__content mt-20">
-                      <div class="text-14 lh-1">
-                        <a href="#">Clothing</a>,
-                        <a href="#">Glasses</a>,
-                        <a href="#">T-Shirts</a>
-                      </div>
-                      <h4 class="text-17 fw-500 mt-15">Wall Clock Brown</h4>
-                      <div class="text-17 fw-500 text-purple-1 mt-15">$55.00</div>
-
-                      <div class="productCard__button d-inline-block">
-                        <a href="#" class="button -md -outline-purple-1 text-dark-1 mt-15">Add To Cart</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                  <div class="productCard -type-1 text-center">
-                    <div class="productCard__image">
-                      <img src="img/shop/products/8.png" alt="Product image">
-
-                      <div class="productCard__controls">
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="eye"></i>
-                        </a>
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="heart"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="productCard__content mt-20">
-                      <div class="text-14 lh-1">
-                        <a href="#">Clothing</a>,
-                        <a href="#">Glasses</a>,
-                        <a href="#">T-Shirts</a>
-                      </div>
-                      <h4 class="text-17 fw-500 mt-15">Wall Clock Brown</h4>
-                      <div class="text-17 fw-500 text-purple-1 mt-15">$55.00</div>
-
-                      <div class="productCard__button d-inline-block">
-                        <a href="#" class="button -md -outline-purple-1 text-dark-1 mt-15">Add To Cart</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                  <div class="productCard -type-1 text-center">
-                    <div class="productCard__image">
-                      <img src="img/shop/products/9.png" alt="Product image">
-
-                      <div class="productCard__controls">
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="eye"></i>
-                        </a>
-                        <a href="#" class="productCard__icon">
-                          <i class="icon" data-feather="heart"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="productCard__content mt-20">
-                      <div class="text-14 lh-1">
-                        <a href="#">Clothing</a>,
-                        <a href="#">Glasses</a>,
-                        <a href="#">T-Shirts</a>
-                      </div>
-                      <h4 class="text-17 fw-500 mt-15">Wall Clock Brown</h4>
-                      <div class="text-17 fw-500 text-purple-1 mt-15">$55.00</div>
-
-                      <div class="productCard__button d-inline-block">
-                        <a href="#" class="button -md -outline-purple-1 text-dark-1 mt-15">Add To Cart</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="row justify-center pt-60 lg:pt-40">
-                <div class="col-auto">
-                  <div class="pagination -buttons">
-                    <button class="pagination__button -prev">
-                      <i class="icon icon-chevron-left"></i>
-                    </button>
-
-                    <div class="pagination__count">
-                      <a href="#">1</a>
-                      <a class="-count-is-active" href="#">2</a>
-                      <a href="#">3</a>
-                      <span>...</span>
-                      <a href="#">67</a>
-                    </div>
-
-                    <button class="pagination__button -next">
-                      <i class="icon icon-chevron-right"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
+              <a href="shop-checkout.html" class="button -md -purple-1 text-white col-12 mt-30">Proceed to checkout</a>
             </div>
           </div>
         </div>

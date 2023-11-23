@@ -9,16 +9,27 @@
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/base.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
 
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/vendors.css">
   <link rel="stylesheet" href="css/main.css">
-
+<link rel="stylesheet" href="css/style.css">
   <title>Educrat</title>
 </head>
 
@@ -383,15 +394,15 @@
                 </a>
               </div>
 
-              <div class="sidebar__item ">
-                <a href="dshb-bookmarks.html" class="d-flex items-center text-17 lh-1 fw-500 ">
+              <div class="sidebar__item -is-active -dark-bg-dark-2">
+                <a href="dshb-bookmarks.html" class="d-flex items-center text-17 lh-1 fw-500 -dark-text-white">
                   <i class="text-20 icon-bookmark mr-15"></i>
                   Bookmarks
                 </a>
               </div>
 
-              <div class="sidebar__item -is-active -dark-bg-dark-2">
-                <a href="dshb-messages.html" class="d-flex items-center text-17 lh-1 fw-500 -dark-text-white">
+              <div class="sidebar__item ">
+                <a href="dshb-messages.html" class="d-flex items-center text-17 lh-1 fw-500 ">
                   <i class="text-20 icon-message mr-15"></i>
                   Messages
                 </a>
@@ -435,7 +446,7 @@
               <div class="row pb-50 mb-10">
                 <div class="col-auto">
 
-                  <h1 class="text-30 lh-12 fw-700">Messages</h1>
+                  <h1 class="text-30 lh-12 fw-700">Bookmarks</h1>
                   <div class="mt-10">Lorem ipsum dolor sit amet, consectetur.</div>
 
                 </div>
@@ -443,240 +454,450 @@
 
 
               <div class="row y-gap-30">
-                <div class="col-xl-4">
+                <div class="col-12">
                   <div class="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
                     <div class="d-flex items-center py-20 px-30 border-bottom-light">
-                      <h2 class="text-17 lh-1 fw-500">Basic Information</h2>
+                      <h2 class="text-17 lh-1 fw-500">Bookmarked</h2>
                     </div>
 
                     <div class="py-30 px-30">
-                      <div class="y-gap-30">
+                      <div class="row y-gap-30">
 
-                        <div class="d-flex justify-between">
-                          <div class="d-flex items-center">
-                            <div class="shrink-0">
-                              <img src="img/avatars/small/1.png" alt="image" class="size-50">
+                        <div class="col-xl-6">
+                          <a href="#" class="relative d-block rounded-8 px-10 py-10 border-light">
+                            <div class="row x-gap-20 y-gap-20 items-center">
+                              <div class="col-md-auto">
+                                <div class="shrink-0">
+                                  <img class="w-1/1" src="img/dashboard/bookmarks/1.png" alt="image">
+                                </div>
+                              </div>
+
+                              <div class="col-md">
+                                <div class="absolute-bookmark -dark-bg-dark-2 shadow-5">
+                                  <i class="icon-bookmark"></i>
+                                </div>
+
+                                <div class="d-flex items-center">
+                                  <div class="text-14 lh-1 fw-500 text-yellow-1 mr-10">4.5</div>
+                                  <div class="d-flex x-gap-5 items-center">
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                  </div>
+                                  <div class="text-13 lh-1 fw-500 ml-10">(1991))</div>
+                                </div>
+
+                                <h3 class="text-17 lh-16 fw-500 mt-10 pr-40 xl:pr-0">Learn Figma - UI/UX Design Essential Training</h3>
+
+                                <div class="d-flex x-gap-20 y-gap-5 items-center flex-wrap pt-10">
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/1.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">6 lesson</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/2.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">3h 56m</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/3.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">Beginner</div>
+                                  </div>
+
+                                </div>
+
+                                <div class="d-flex y-gap-10 justify-between items-center flex-wrap border-top-light pt-10 mt-10">
+                                  <div class="d-flex items-center">
+                                    <img src="img/general/avatar-1.png" alt="image">
+                                    <div class="text-14 lh-1 ml-10">Ali Tufan</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="line-through lh-1 fw-500 mr-10">$179</div>
+                                    <div class="text-18 lh-1 fw-500 text-dark-1">$79</div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                            <div class="ml-10">
-                              <div class="lh-11 fw-500 text-dark-1">Darlene Robertson</div>
-                              <div class="text-14 lh-11 mt-5">Head of Development</div>
-                            </div>
-                          </div>
-
-                          <div class="d-flex items-end flex-column pt-8">
-                            <div class="text-13 lh-1">35 mins</div>
-
-                          </div>
+                          </a>
                         </div>
 
-                        <div class="d-flex justify-between">
-                          <div class="d-flex items-center">
-                            <div class="shrink-0">
-                              <img src="img/avatars/small/2.png" alt="image" class="size-50">
-                            </div>
-                            <div class="ml-10">
-                              <div class="lh-11 fw-500 text-dark-1">Jane Cooper</div>
-                              <div class="text-14 lh-11 mt-5">Head of Development</div>
-                            </div>
-                          </div>
+                        <div class="col-xl-6">
+                          <a href="#" class="relative d-block rounded-8 px-10 py-10 border-light">
+                            <div class="row x-gap-20 y-gap-20 items-center">
+                              <div class="col-md-auto">
+                                <div class="shrink-0">
+                                  <img class="w-1/1" src="img/dashboard/bookmarks/2.png" alt="image">
+                                </div>
+                              </div>
 
-                          <div class="d-flex items-end flex-column pt-8">
-                            <div class="text-13 lh-1">35 mins</div>
+                              <div class="col-md">
+                                <div class="absolute-bookmark -dark-bg-dark-2 shadow-5">
+                                  <i class="icon-bookmark"></i>
+                                </div>
 
-                            <div class="d-flex justify-center items-center size-20 bg-blue-3 rounded-full mt-8">
-                              <span class="text-11 lh-1 text-white fw-500">5</span>
+                                <div class="d-flex items-center">
+                                  <div class="text-14 lh-1 fw-500 text-yellow-1 mr-10">4.5</div>
+                                  <div class="d-flex x-gap-5 items-center">
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                  </div>
+                                  <div class="text-13 lh-1 fw-500 ml-10">(1991))</div>
+                                </div>
+
+                                <h3 class="text-17 lh-16 fw-500 mt-10 pr-40 xl:pr-0">Learn Figma - UI/UX Design Essential Training</h3>
+
+                                <div class="d-flex x-gap-20 y-gap-5 items-center flex-wrap pt-10">
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/1.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">6 lesson</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/2.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">3h 56m</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/3.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">Beginner</div>
+                                  </div>
+
+                                </div>
+
+                                <div class="d-flex y-gap-10 justify-between items-center flex-wrap border-top-light pt-10 mt-10">
+                                  <div class="d-flex items-center">
+                                    <img src="img/general/avatar-1.png" alt="image">
+                                    <div class="text-14 lh-1 ml-10">Ali Tufan</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="line-through lh-1 fw-500 mr-10">$179</div>
+                                    <div class="text-18 lh-1 fw-500 text-dark-1">$79</div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-
-                          </div>
+                          </a>
                         </div>
 
-                        <div class="d-flex justify-between">
-                          <div class="d-flex items-center">
-                            <div class="shrink-0">
-                              <img src="img/avatars/small/3.png" alt="image" class="size-50">
-                            </div>
-                            <div class="ml-10">
-                              <div class="lh-11 fw-500 text-dark-1">Arlene McCoy</div>
-                              <div class="text-14 lh-11 mt-5">Head of Development</div>
-                            </div>
-                          </div>
+                        <div class="col-xl-6">
+                          <a href="#" class="relative d-block rounded-8 px-10 py-10 border-light">
+                            <div class="row x-gap-20 y-gap-20 items-center">
+                              <div class="col-md-auto">
+                                <div class="shrink-0">
+                                  <img class="w-1/1" src="img/dashboard/bookmarks/3.png" alt="image">
+                                </div>
+                              </div>
 
-                          <div class="d-flex items-end flex-column pt-8">
-                            <div class="text-13 lh-1">35 mins</div>
+                              <div class="col-md">
+                                <div class="absolute-bookmark -dark-bg-dark-2 shadow-5">
+                                  <i class="icon-bookmark"></i>
+                                </div>
 
-                            <div class="d-flex justify-center items-center size-20 bg-green-5 rounded-full mt-8">
-                              <span class="text-11 lh-1 text-white fw-500">2</span>
+                                <div class="d-flex items-center">
+                                  <div class="text-14 lh-1 fw-500 text-yellow-1 mr-10">4.5</div>
+                                  <div class="d-flex x-gap-5 items-center">
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                  </div>
+                                  <div class="text-13 lh-1 fw-500 ml-10">(1991))</div>
+                                </div>
+
+                                <h3 class="text-17 lh-16 fw-500 mt-10 pr-40 xl:pr-0">Learn Figma - UI/UX Design Essential Training</h3>
+
+                                <div class="d-flex x-gap-20 y-gap-5 items-center flex-wrap pt-10">
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/1.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">6 lesson</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/2.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">3h 56m</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/3.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">Beginner</div>
+                                  </div>
+
+                                </div>
+
+                                <div class="d-flex y-gap-10 justify-between items-center flex-wrap border-top-light pt-10 mt-10">
+                                  <div class="d-flex items-center">
+                                    <img src="img/general/avatar-1.png" alt="image">
+                                    <div class="text-14 lh-1 ml-10">Ali Tufan</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="line-through lh-1 fw-500 mr-10">$179</div>
+                                    <div class="text-18 lh-1 fw-500 text-dark-1">$79</div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-
-                          </div>
+                          </a>
                         </div>
 
-                        <div class="d-flex justify-between">
-                          <div class="d-flex items-center">
-                            <div class="shrink-0">
-                              <img src="img/avatars/small/4.png" alt="image" class="size-50">
-                            </div>
-                            <div class="ml-10">
-                              <div class="lh-11 fw-500 text-dark-1">Albert Flores</div>
-                              <div class="text-14 lh-11 mt-5">Head of Development</div>
-                            </div>
-                          </div>
+                        <div class="col-xl-6">
+                          <a href="#" class="relative d-block rounded-8 px-10 py-10 border-light">
+                            <div class="row x-gap-20 y-gap-20 items-center">
+                              <div class="col-md-auto">
+                                <div class="shrink-0">
+                                  <img class="w-1/1" src="img/dashboard/bookmarks/4.png" alt="image">
+                                </div>
+                              </div>
 
-                          <div class="d-flex items-end flex-column pt-8">
-                            <div class="text-13 lh-1">35 mins</div>
+                              <div class="col-md">
+                                <div class="absolute-bookmark -dark-bg-dark-2 shadow-5">
+                                  <i class="icon-bookmark"></i>
+                                </div>
 
-                          </div>
+                                <div class="d-flex items-center">
+                                  <div class="text-14 lh-1 fw-500 text-yellow-1 mr-10">4.5</div>
+                                  <div class="d-flex x-gap-5 items-center">
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                  </div>
+                                  <div class="text-13 lh-1 fw-500 ml-10">(1991))</div>
+                                </div>
+
+                                <h3 class="text-17 lh-16 fw-500 mt-10 pr-40 xl:pr-0">Learn Figma - UI/UX Design Essential Training</h3>
+
+                                <div class="d-flex x-gap-20 y-gap-5 items-center flex-wrap pt-10">
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/1.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">6 lesson</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/2.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">3h 56m</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/3.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">Beginner</div>
+                                  </div>
+
+                                </div>
+
+                                <div class="d-flex y-gap-10 justify-between items-center flex-wrap border-top-light pt-10 mt-10">
+                                  <div class="d-flex items-center">
+                                    <img src="img/general/avatar-1.png" alt="image">
+                                    <div class="text-14 lh-1 ml-10">Ali Tufan</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="line-through lh-1 fw-500 mr-10">$179</div>
+                                    <div class="text-18 lh-1 fw-500 text-dark-1">$79</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
                         </div>
 
-                        <div class="d-flex justify-between">
-                          <div class="d-flex items-center">
-                            <div class="shrink-0">
-                              <img src="img/avatars/small/5.png" alt="image" class="size-50">
-                            </div>
-                            <div class="ml-10">
-                              <div class="lh-11 fw-500 text-dark-1">Cameron Williamson</div>
-                              <div class="text-14 lh-11 mt-5">Head of Development</div>
-                            </div>
-                          </div>
+                        <div class="col-xl-6">
+                          <a href="#" class="relative d-block rounded-8 px-10 py-10 border-light">
+                            <div class="row x-gap-20 y-gap-20 items-center">
+                              <div class="col-md-auto">
+                                <div class="shrink-0">
+                                  <img class="w-1/1" src="img/dashboard/bookmarks/5.png" alt="image">
+                                </div>
+                              </div>
 
-                          <div class="d-flex items-end flex-column pt-8">
-                            <div class="text-13 lh-1">35 mins</div>
+                              <div class="col-md">
+                                <div class="absolute-bookmark -dark-bg-dark-2 shadow-5">
+                                  <i class="icon-bookmark"></i>
+                                </div>
 
-                            <div class="d-flex justify-center items-center size-20 bg-yellow-4 rounded-full mt-8">
-                              <span class="text-11 lh-1 text-white fw-500">3</span>
+                                <div class="d-flex items-center">
+                                  <div class="text-14 lh-1 fw-500 text-yellow-1 mr-10">4.5</div>
+                                  <div class="d-flex x-gap-5 items-center">
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                  </div>
+                                  <div class="text-13 lh-1 fw-500 ml-10">(1991))</div>
+                                </div>
+
+                                <h3 class="text-17 lh-16 fw-500 mt-10 pr-40 xl:pr-0">Learn Figma - UI/UX Design Essential Training</h3>
+
+                                <div class="d-flex x-gap-20 y-gap-5 items-center flex-wrap pt-10">
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/1.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">6 lesson</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/2.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">3h 56m</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/3.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">Beginner</div>
+                                  </div>
+
+                                </div>
+
+                                <div class="d-flex y-gap-10 justify-between items-center flex-wrap border-top-light pt-10 mt-10">
+                                  <div class="d-flex items-center">
+                                    <img src="img/general/avatar-1.png" alt="image">
+                                    <div class="text-14 lh-1 ml-10">Ali Tufan</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="line-through lh-1 fw-500 mr-10">$179</div>
+                                    <div class="text-18 lh-1 fw-500 text-dark-1">$79</div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-
-                          </div>
+                          </a>
                         </div>
 
-                        <div class="d-flex justify-between">
-                          <div class="d-flex items-center">
-                            <div class="shrink-0">
-                              <img src="img/avatars/small/6.png" alt="image" class="size-50">
+                        <div class="col-xl-6">
+                          <a href="#" class="relative d-block rounded-8 px-10 py-10 border-light">
+                            <div class="row x-gap-20 y-gap-20 items-center">
+                              <div class="col-md-auto">
+                                <div class="shrink-0">
+                                  <img class="w-1/1" src="img/dashboard/bookmarks/6.png" alt="image">
+                                </div>
+                              </div>
+
+                              <div class="col-md">
+                                <div class="absolute-bookmark -dark-bg-dark-2 shadow-5">
+                                  <i class="icon-bookmark"></i>
+                                </div>
+
+                                <div class="d-flex items-center">
+                                  <div class="text-14 lh-1 fw-500 text-yellow-1 mr-10">4.5</div>
+                                  <div class="d-flex x-gap-5 items-center">
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                    <i class="icon-star text-9 text-yellow-1"></i>
+                                  </div>
+                                  <div class="text-13 lh-1 fw-500 ml-10">(1991))</div>
+                                </div>
+
+                                <h3 class="text-17 lh-16 fw-500 mt-10 pr-40 xl:pr-0">Learn Figma - UI/UX Design Essential Training</h3>
+
+                                <div class="d-flex x-gap-20 y-gap-5 items-center flex-wrap pt-10">
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/1.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">6 lesson</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/2.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">3h 56m</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="mr-10">
+                                      <img src="img/coursesCards/icons/3.svg" alt="icon">
+                                    </div>
+                                    <div class="text-14 lh-1">Beginner</div>
+                                  </div>
+
+                                </div>
+
+                                <div class="d-flex y-gap-10 justify-between items-center flex-wrap border-top-light pt-10 mt-10">
+                                  <div class="d-flex items-center">
+                                    <img src="img/general/avatar-1.png" alt="image">
+                                    <div class="text-14 lh-1 ml-10">Ali Tufan</div>
+                                  </div>
+
+                                  <div class="d-flex items-center">
+                                    <div class="line-through lh-1 fw-500 mr-10">$179</div>
+                                    <div class="text-18 lh-1 fw-500 text-dark-1">$79</div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                            <div class="ml-10">
-                              <div class="lh-11 fw-500 text-dark-1">Kristin Watson</div>
-                              <div class="text-14 lh-11 mt-5">Head of Development</div>
-                            </div>
-                          </div>
-
-                          <div class="d-flex items-end flex-column pt-8">
-                            <div class="text-13 lh-1">35 mins</div>
-
-                          </div>
-                        </div>
-
-                        <div class="d-flex justify-between">
-                          <div class="d-flex items-center">
-                            <div class="shrink-0">
-                              <img src="img/avatars/small/7.png" alt="image" class="size-50">
-                            </div>
-                            <div class="ml-10">
-                              <div class="lh-11 fw-500 text-dark-1">Annette Black</div>
-                              <div class="text-14 lh-11 mt-5">Head of Development</div>
-                            </div>
-                          </div>
-
-                          <div class="d-flex items-end flex-column pt-8">
-                            <div class="text-13 lh-1">35 mins</div>
-
-                          </div>
-                        </div>
-
-                        <div class="d-flex justify-between">
-                          <div class="d-flex items-center">
-                            <div class="shrink-0">
-                              <img src="img/avatars/small/8.png" alt="image" class="size-50">
-                            </div>
-                            <div class="ml-10">
-                              <div class="lh-11 fw-500 text-dark-1">Jacob Jones</div>
-                              <div class="text-14 lh-11 mt-5">Head of Development</div>
-                            </div>
-                          </div>
-
-                          <div class="d-flex items-end flex-column pt-8">
-                            <div class="text-13 lh-1">35 mins</div>
-
-                          </div>
+                          </a>
                         </div>
 
                       </div>
-                    </div>
-                  </div>
-                </div>
 
-                <div class="col-xl-8">
-                  <div class="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
-                    <div class="d-flex items-center justify-between py-20 px-30 border-bottom-light">
-                      <div class="d-flex items-center">
-                        <div class="shrink-0">
-                          <img src="img/avatars/small/2.png" alt="image" class="size-50">
-                        </div>
-                        <div class="ml-10">
-                          <div class="lh-11 fw-500 text-dark-1">Arlene McCoy</div>
-                          <div class="text-14 lh-11 mt-5">Active</div>
-                        </div>
-                      </div>
-
-                      <a href="#" class="text-14 lh-11 fw-500 text-orange-1 underline">Delete Conversation</a>
-                    </div>
-
-                    <div class="py-40 px-40">
-                      <div class="row y-gap-20">
-                        <div class="col-xl-7 col-lg-10">
-                          <div class="d-flex items-center">
-                            <div class="shrink-0">
-                              <img src="img/avatars/small/4.png" alt="image" class="size-50">
-                            </div>
-                            <div class="lh-11 fw-500 text-dark-1 ml-10">Albert Flores</div>
-                            <div class="text-14 lh-11 ml-10">35 mins</div>
-                          </div>
-                          <div class="d-inline-block mt-15">
-                            <div class="py-20 px-30 bg-light-3 rounded-8">
-                              How likely are you to recommend our company to your friends and family?
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-xl-7 offset-xl-5 col-lg-10 offset-lg-2">
-                          <div class="d-flex items-center justify-end">
-                            <div class="text-14 lh-11 mr-10">35 mins</div>
-                            <div class="lh-11 fw-500 text-dark-1 mr-10">You</div>
-                            <div class="shrink-0">
-                              <img src="img/avatars/small/3.png" alt="image" class="size-50">
-                            </div>
-                          </div>
-                          <div class="d-inline-block mt-15">
-                            <div class="py-20 px-30 bg-light-7 -dark-bg-dark-2 text-purple-1 rounded-8 text-right">
-                              Hey there, we’re just writing to let you know that you’ve been subscribed to a repository on GitHub.
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-xl-7 col-lg-10">
-                          <div class="d-flex items-center">
-                            <div class="shrink-0">
-                              <img src="img/avatars/small/6.png" alt="image" class="size-50">
-                            </div>
-                            <div class="lh-11 fw-500 text-dark-1 ml-10">Cameron Williamson</div>
-                            <div class="text-14 lh-11 ml-10">35 mins</div>
-                          </div>
-                          <div class="d-inline-block mt-15">
-                            <div class="py-20 px-30 bg-light-3 rounded-8">
-                              Ok, Understood!
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="py-25 px-40 border-top-light">
-                      <div class="row y-gap-10 justify-between">
-                        <div class="col-lg-7">
-                          <input class="-dark-bg-dark-1 py-20 w-1/1" type="text" placeholder="Type a Message">
-                        </div>
+                      <div class="row justify-center pt-30">
                         <div class="col-auto">
-                          <button class="button -md -purple-1 text-white shrink-0">Send Message</button>
+                          <div class="pagination -buttons">
+                            <button class="pagination__button -prev">
+                              <i class="icon icon-chevron-left"></i>
+                            </button>
+
+                            <div class="pagination__count">
+                              <a href="#">1</a>
+                              <a class="-count-is-active" href="#">2</a>
+                              <a href="#">3</a>
+                              <span>...</span>
+                              <a href="#">67</a>
+                            </div>
+
+                            <button class="pagination__button -next">
+                              <i class="icon icon-chevron-right"></i>
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>

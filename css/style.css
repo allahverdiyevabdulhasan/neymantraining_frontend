@@ -66,3 +66,35 @@
 
 }
 
+/* blog kateqoriya scrool bar */
+.scrool_auto{
+    overflow-y: auto;
+    height: 200px;
+}
+.scrool_auto::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scrool_auto::-webkit-scrollbar-track {
+    background-color: #fbfbfb;
+}
+
+.scrool_auto::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+}
+
+.scrool_auto_recent{
+    overflow-y: auto;
+    height: 400px;
+}
+.scrool_auto_recent::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scrool_auto_recent::-webkit-scrollbar-track {
+    background-color: #fbfbfb;
+}
+
+.scrool_auto_recent::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+}
