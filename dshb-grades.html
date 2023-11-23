@@ -9,16 +9,27 @@
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/base.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
 
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/vendors.css">
   <link rel="stylesheet" href="css/main.css">
-
+<link rel="stylesheet" href="css/style.css">
   <title>Educrat</title>
 </head>
 
@@ -397,8 +408,8 @@
                 </a>
               </div>
 
-              <div class="sidebar__item ">
-                <a href="dshb-listing.html" class="d-flex items-center text-17 lh-1 fw-500 ">
+              <div class="sidebar__item -is-active -dark-bg-dark-2">
+                <a href="dshb-listing.html" class="d-flex items-center text-17 lh-1 fw-500 -dark-text-white">
                   <i class="text-20 icon-list mr-15"></i>
                   Create Course
                 </a>
@@ -411,8 +422,8 @@
                 </a>
               </div>
 
-              <div class="sidebar__item -is-active -dark-bg-dark-2">
-                <a href="dshb-settings.html" class="d-flex items-center text-17 lh-1 fw-500 -dark-text-white">
+              <div class="sidebar__item ">
+                <a href="dshb-settings.html" class="d-flex items-center text-17 lh-1 fw-500 ">
                   <i class="text-20 icon-setting mr-15"></i>
                   Settings
                 </a>
@@ -435,8 +446,24 @@
               <div class="row pb-50 mb-10">
                 <div class="col-auto">
 
-                  <h1 class="text-30 lh-12 fw-700">Settings</h1>
-                  <div class="mt-10">Lorem ipsum dolor sit amet, consectetur.</div>
+                  <h1 class="text-30 lh-12 fw-700">Grades</h1>
+
+                  <div class="breadcrumbs mt-10 pt-0 pb-0">
+                    <div class="breadcrumbs__content">
+                      <div class="breadcrumbs__item">
+                        <a href="index.html">Home</a>
+                      </div>
+                      <div class="breadcrumbs__item">
+                        <a href="courses-list-3.html">All courses</a>
+                      </div>
+                      <div class="breadcrumbs__item">
+                        <a href="courses-single-4.html">User Experience Design</a>
+                      </div>
+                      <div class="breadcrumbs__item">
+                        <a href="courses-single-4.html">User Interface</a>
+                      </div>
+                    </div>
+                  </div>
 
                 </div>
               </div>
@@ -445,394 +472,567 @@
               <div class="row y-gap-30">
                 <div class="col-12">
                   <div class="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
-                    <div class="tabs -active-purple-2 js-tabs pt-0">
-                      <div class="tabs__controls d-flex x-gap-30 items-center pt-20 px-30 border-bottom-light js-tabs-controls">
-                        <button class="tabs__button text-light-1 js-tabs-button is-active" data-tab-target=".-tab-item-1" type="button">
-                          Edit Profile
-                        </button>
-                        <button class="tabs__button text-light-1 js-tabs-button" data-tab-target=".-tab-item-2" type="button">
-                          Password
-                        </button>
-                        <button class="tabs__button text-light-1 js-tabs-button" data-tab-target=".-tab-item-3" type="button">
-                          Social Profiles
-                        </button>
-                        <button class="tabs__button text-light-1 js-tabs-button" data-tab-target=".-tab-item-4" type="button">
-                          Notifications
-                        </button>
-                        <button class="tabs__button text-light-1 js-tabs-button" data-tab-target=".-tab-item-5" type="button">
-                          Close Account
-                        </button>
+                    <div class="d-flex items-center py-20 px-30 border-bottom-light">
+                      <h2 class="text-17 lh-1 fw-500">Grades</h2>
+                    </div>
+
+                    <div class="py-30 px-30">
+                      <div class="row">
+                        <div class="col-auto">
+                          Grader Report
+                        </div>
                       </div>
 
-                      <div class="tabs__content py-30 px-30 js-tabs-content">
-                        <div class="tabs__pane -tab-item-1 is-active">
-                          <div class="row y-gap-20 x-gap-20 items-center">
-                            <div class="col-auto">
-                              <img class="size-100" src="img/dashboard/edit/1.png" alt="image">
+                      <div class="row y-gap-20 x-gap-20 items-center pt-30">
+                        <div class="col-auto">
+                          <h4 class="text-18 lh-13 fw-500">First name</h4>
+                        </div>
+
+                        <div class="col-12">
+                          <div class="d-flex x-gap-5 y-gap-10 flex-wrap">
+                            <div>
+                              <div class="py-8 pr-5 d-flex justify-center items-center">
+                                All
+                              </div>
                             </div>
 
-                            <div class="col-auto">
-                              <div class="text-16 fw-500 text-dark-1">Your avatar</div>
-                              <div class="text-14 lh-1 mt-10">PNG or JPG no bigger than 800px wide and tall.</div>
+                            <div>
 
-                              <div class="d-flex x-gap-10 y-gap-10 flex-wrap pt-15">
-                                <div>
-                                  <div class="d-flex justify-center items-center size-40 rounded-8 bg-light-3">
-                                    <div class="icon-cloud text-16"></div>
-                                  </div>
-                                </div>
-                                <div>
-                                  <div class="d-flex justify-center items-center size-40 rounded-8 bg-light-3">
-                                    <div class="icon-bin text-16"></div>
-                                  </div>
-                                </div>
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                A
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                B
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                C
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                D
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                E
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                F
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                G
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                H
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                I
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4 bg-dark-1 -dark-text-dark-1 text-white">
+                                J
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                K
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                L
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                M
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                N
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                O
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                P
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                Q
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                R
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                S
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                T
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                U
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                V
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                W
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                X
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                Y
+                              </div>
+
+                            </div>
+
+                            <div>
+
+                              <div class="size-35 d-flex justify-center items-center border-light rounded-4">
+                                Z
+                              </div>
+
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="py-25 px-30 bg-light-7 -dark-bg-dark-2 rounded-8 mt-25">
+                        <div class="row y-gap-20 justify-between items-center">
+                          <div class="col-xl-3">
+                            <div class="text-purple-1 fw-500">First name / Surname</div>
+                          </div>
+                          <div class="col-xl-2">
+                            <div class="text-purple-1 fw-500">Email address</div>
+                          </div>
+
+
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-between items-center">
+                              <div class="text-purple-1 fw-500">Are you a Literacy Light...</div>
+                              <div class="d-flex y-gap-5 x-gap-10 items-center pl-10">
+                                <a href="#"><i class="icon-edit text-16 text-purple-1"></i></a>
+                                <a href="#"><i class="icon-up_down text-20 text-purple-1"></i></a>
                               </div>
                             </div>
                           </div>
 
-                          <div class="border-top-light pt-30 mt-30">
-                            <form action="#" class="contact-form row y-gap-30">
-
-                              <div class="col-md-6">
-
-                                <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">First Name</label>
-
-                                <input type="text" placeholder="First Name">
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-between items-center">
+                              <div class="text-purple-1 fw-500">Let&#39;s learn about...</div>
+                              <div class="d-flex y-gap-5 x-gap-10 items-center pl-10">
+                                <a href="#"><i class="icon-edit text-16 text-purple-1"></i></a>
+                                <a href="#"><i class="icon-up_down text-20 text-purple-1"></i></a>
                               </div>
-
-
-                              <div class="col-md-6">
-
-                                <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Last Name</label>
-
-                                <input type="text" placeholder="Last Name">
-                              </div>
-
-
-                              <div class="col-md-6">
-
-                                <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Phone</label>
-
-                                <input type="text" placeholder="Phone">
-                              </div>
-
-
-                              <div class="col-md-6">
-
-                                <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Birthday</label>
-
-                                <input type="text" placeholder="Birthday">
-                              </div>
-
-
-                              <div class="col-md-6">
-
-                                <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Address Line 1</label>
-
-                                <input type="text" placeholder="Address Line 1">
-                              </div>
-
-
-                              <div class="col-md-6">
-
-                                <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Address Line 2</label>
-
-                                <input type="text" placeholder="Address Line 2">
-                              </div>
-
-
-                              <div class="col-md-6">
-
-                                <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">State</label>
-
-                                <input type="text" placeholder="State">
-                              </div>
-
-
-                              <div class="col-md-6">
-
-                                <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Country</label>
-
-                                <input type="text" placeholder="Country">
-                              </div>
-
-
-                              <div class="col-12">
-
-                                <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Personal info</label>
-
-                                <textarea placeholder="Text..." rows="7"></textarea>
-                              </div>
-
-
-                              <div class="col-12">
-                                <button class="button -md -purple-1 text-white">Update Profile</button>
-                              </div>
-                            </form>
+                            </div>
                           </div>
+
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-between items-center">
+                              <div class="text-purple-1 fw-500">Course total</div>
+                              <div class="d-flex y-gap-5 x-gap-10 items-center pl-10">
+                                <a href="#"><i class="icon-edit text-16 text-purple-1"></i></a>
+                                <a href="#"><i class="icon-up_down text-20 text-purple-1"></i></a>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+
+                      <div class="border-light-bottom py-20 px-30">
+
+
+                        <div class="row y-gap-20 justify-between items-center">
+
+                          <div class="col-xl-3">
+                            <div class="d-flex items-center">
+                              <div class="d-flex x-gap-10 items-center mr-30">
+                                <a href="#"><i class="icon-calendar text-16"></i></a>
+                                <a href="#"><i class="icon-edit text-16"></i></a>
+                              </div>
+
+                              <img src="img/avatars/small/1.png" alt="image" class="size-40">
+                              <div class="text-dark-1 ml-10">Jenny Wilson</div>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="text-dark-1">alitfn@example.com</div>
+                          </div>
+
+
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
+                            </div>
+                          </div>
+
                         </div>
 
-                        <div class="tabs__pane -tab-item-2">
-                          <form action="#" class="contact-form row y-gap-30">
 
-                            <div class="col-md-7">
+                        <div class="row y-gap-20 justify-between items-center border-top-light pt-20 mt-20">
 
-                              <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Current password</label>
+                          <div class="col-xl-3">
+                            <div class="d-flex items-center">
+                              <div class="d-flex x-gap-10 items-center mr-30">
+                                <a href="#"><i class="icon-calendar text-16"></i></a>
+                                <a href="#"><i class="icon-edit text-16"></i></a>
+                              </div>
 
-                              <input type="text" placeholder="Current password">
+                              <img src="img/avatars/small/1.png" alt="image" class="size-40">
+                              <div class="text-dark-1 ml-10">Jenny Wilson</div>
                             </div>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="text-dark-1">alitfn@example.com</div>
+                          </div>
 
 
-                            <div class="col-md-7">
-
-                              <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">New password</label>
-
-                              <input type="text" placeholder="New password">
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
                             </div>
+                          </div>
 
-
-                            <div class="col-md-7">
-
-                              <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Confirm New Password</label>
-
-                              <input type="text" placeholder="Confirm New Password">
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
                             </div>
+                          </div>
 
-                            <div class="col-12">
-                              <button class="button -md -purple-1 text-white">Save Password</button>
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
                             </div>
-                          </form>
+                          </div>
+
                         </div>
 
-                        <div class="tabs__pane -tab-item-3">
-                          <form action="#" class="contact-form row y-gap-30">
 
-                            <div class="col-md-6">
+                        <div class="row y-gap-20 justify-between items-center border-top-light pt-20 mt-20">
 
-                              <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Twitter</label>
+                          <div class="col-xl-3">
+                            <div class="d-flex items-center">
+                              <div class="d-flex x-gap-10 items-center mr-30">
+                                <a href="#"><i class="icon-calendar text-16"></i></a>
+                                <a href="#"><i class="icon-edit text-16"></i></a>
+                              </div>
 
-                              <input type="text" placeholder="Twitter Profile">
+                              <img src="img/avatars/small/1.png" alt="image" class="size-40">
+                              <div class="text-dark-1 ml-10">Jenny Wilson</div>
                             </div>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="text-dark-1">alitfn@example.com</div>
+                          </div>
 
 
-                            <div class="col-md-6">
-
-                              <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Facebook</label>
-
-                              <input type="text" placeholder="Facebook Profile">
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
                             </div>
+                          </div>
 
-
-                            <div class="col-md-6">
-
-                              <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Instagram</label>
-
-                              <input type="text" placeholder="Instagram Profile">
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
                             </div>
+                          </div>
 
-
-                            <div class="col-md-6">
-
-                              <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">LinkedIn Profile URL</label>
-
-                              <input type="text" placeholder="LinkedIn Profile">
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
                             </div>
+                          </div>
 
-                            <div class="col-12">
-                              <button class="button -md -purple-1 text-white">Save Social Profile</button>
-                            </div>
-                          </form>
                         </div>
 
-                        <div class="tabs__pane -tab-item-4">
-                          <form action="#" class="contact-form">
-                            <div class="row">
-                              <div class="col-12">
-                                <div class="text-16 fw-500 text-dark-1">Notifications - Choose when and how to be notified</div>
-                                <p class="text-14 lh-13 mt-5">Select push and email notifications you'd like to receive</p>
+
+                        <div class="row y-gap-20 justify-between items-center border-top-light pt-20 mt-20">
+
+                          <div class="col-xl-3">
+                            <div class="d-flex items-center">
+                              <div class="d-flex x-gap-10 items-center mr-30">
+                                <a href="#"><i class="icon-calendar text-16"></i></a>
+                                <a href="#"><i class="icon-edit text-16"></i></a>
                               </div>
+
+                              <img src="img/avatars/small/1.png" alt="image" class="size-40">
+                              <div class="text-dark-1 ml-10">Jenny Wilson</div>
                             </div>
+                          </div>
 
-                            <div class="pt-60">
-                              <div class="row y-gap-20 justify-between">
-                                <div class="col-auto">
-                                  <div class="text-16 fw-500 text-dark-1">Choose when and how to be notified</div>
-                                </div>
-                              </div>
+                          <div class="col-xl-2">
+                            <div class="text-dark-1">alitfn@example.com</div>
+                          </div>
 
 
-                              <div class="pt-30">
-
-                                <div class="row y-gap-20 justify-between">
-                                  <div class="col-auto">
-                                    <div class="text-16 fw-500 text-dark-1">Subscriptions</div>
-                                    <p class="text-14 lh-13 mt-5">Notify me about activity from the profiles I'm subscribed to</p>
-                                  </div>
-                                  <div class="col-auto">
-                                    <div class="form-switch">
-                                      <div class="switch" data-switch=".js-switch-content">
-                                        <input type="checkbox">
-                                        <span class="switch__slider"></span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-
-                              <div class="border-top-light pt-20 mt-20">
-
-                                <div class="row y-gap-20 justify-between">
-                                  <div class="col-auto">
-                                    <div class="text-16 fw-500 text-dark-1">Recommended Courses</div>
-                                    <p class="text-14 lh-13 mt-5">Notify me about activity from the profiles I'm subscribed to</p>
-                                  </div>
-                                  <div class="col-auto">
-                                    <div class="form-switch">
-                                      <div class="switch" data-switch=".js-switch-content">
-                                        <input type="checkbox">
-                                        <span class="switch__slider"></span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-
-                              <div class="border-top-light pt-20 mt-20">
-
-                                <div class="row y-gap-20 justify-between">
-                                  <div class="col-auto">
-                                    <div class="text-16 fw-500 text-dark-1">Replies to my comments</div>
-                                    <p class="text-14 lh-13 mt-5">Notify me about activity from the profiles I'm subscribed to</p>
-                                  </div>
-                                  <div class="col-auto">
-                                    <div class="form-switch">
-                                      <div class="switch" data-switch=".js-switch-content">
-                                        <input type="checkbox">
-                                        <span class="switch__slider"></span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-
-                              <div class="border-top-light pt-20 mt-20">
-
-                                <div class="row y-gap-20 justify-between">
-                                  <div class="col-auto">
-                                    <div class="text-16 fw-500 text-dark-1">Activity on my comments</div>
-                                    <p class="text-14 lh-13 mt-5">Notify me about activity from the profiles I'm subscribed to</p>
-                                  </div>
-                                  <div class="col-auto">
-                                    <div class="form-switch">
-                                      <div class="switch" data-switch=".js-switch-content">
-                                        <input type="checkbox">
-                                        <span class="switch__slider"></span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
                             </div>
+                          </div>
 
-                            <div class="pt-60">
-                              <div class="row y-gap-20 justify-between">
-                                <div class="col-auto">
-                                  <div class="text-16 fw-500 text-dark-1">Email notifications</div>
-                                </div>
-                              </div>
-
-
-                              <div class="pt-30">
-
-                                <div class="row y-gap-20 justify-between">
-                                  <div class="col-auto">
-                                    <div class="text-16 fw-500 text-dark-1">Send me emails about my Cursus activity and updates I requested</div>
-                                    <p class="text-14 lh-13 mt-5">Notify me about activity from the profiles I'm subscribed to</p>
-                                  </div>
-                                  <div class="col-auto">
-                                    <div class="form-switch">
-                                      <div class="switch" data-switch=".js-switch-content">
-                                        <input type="checkbox">
-                                        <span class="switch__slider"></span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-
-                              <div class="border-top-light pt-20 mt-20">
-
-                                <div class="row y-gap-20 justify-between">
-                                  <div class="col-auto">
-                                    <div class="text-16 fw-500 text-dark-1">Promotions, course recommendations, and helpful resources from Cursus.</div>
-                                    <p class="text-14 lh-13 mt-5">Notify me about activity from the profiles I'm subscribed to</p>
-                                  </div>
-                                  <div class="col-auto">
-                                    <div class="form-switch">
-                                      <div class="switch" data-switch=".js-switch-content">
-                                        <input type="checkbox">
-                                        <span class="switch__slider"></span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-
-                              <div class="border-top-light pt-20 mt-20">
-
-                                <div class="row y-gap-20 justify-between">
-                                  <div class="col-auto">
-                                    <div class="text-16 fw-500 text-dark-1">Announcements from instructors whose course(s) I’m enrolled in.</div>
-                                    <p class="text-14 lh-13 mt-5">Notify me about activity from the profiles I'm subscribed to</p>
-                                  </div>
-                                  <div class="col-auto">
-                                    <div class="form-switch">
-                                      <div class="switch" data-switch=".js-switch-content">
-                                        <input type="checkbox">
-                                        <span class="switch__slider"></span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
                             </div>
+                          </div>
 
-                            <div class="row pt-30">
-                              <div class="col-12">
-                                <button class="button -md -purple-1 text-white">Save Changes</button>
-                              </div>
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
                             </div>
-                          </form>
+                          </div>
+
                         </div>
 
-                        <div class="tabs__pane -tab-item-5">
-                          <form action="#" class="contact-form row y-gap-30">
-                            <div class="col-12">
-                              <div class="text-16 fw-500 text-dark-1">Close account</div>
-                              <p class="mt-10">Warning: If you close your account, you will be unsubscribed from all your 5 courses, and will lose access forever.</p>
+
+                        <div class="row y-gap-20 justify-between items-center border-top-light pt-20 mt-20">
+
+                          <div class="col-xl-3">
+                            <div class="d-flex items-center">
+                              <div class="d-flex x-gap-10 items-center mr-30">
+                                <a href="#"><i class="icon-calendar text-16"></i></a>
+                                <a href="#"><i class="icon-edit text-16"></i></a>
+                              </div>
+
+                              <img src="img/avatars/small/1.png" alt="image" class="size-40">
+                              <div class="text-dark-1 ml-10">Jenny Wilson</div>
                             </div>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="text-dark-1">alitfn@example.com</div>
+                          </div>
 
 
-                            <div class="col-md-7">
-
-                              <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Enter Password</label>
-
-                              <input type="text" placeholder="Enter Password">
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
                             </div>
+                          </div>
 
-
-                            <div class="col-12">
-                              <button class="button -md -purple-1 text-white">Close Account</button>
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
                             </div>
-                          </form>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
+                            </div>
+                          </div>
+
                         </div>
+
+
+                        <div class="row y-gap-20 justify-between items-center border-top-light pt-20 mt-20">
+
+                          <div class="col-xl-3">
+                            <div class="d-flex items-center">
+                              <div class="d-flex x-gap-10 items-center mr-30">
+                                <a href="#"><i class="icon-calendar text-16"></i></a>
+                                <a href="#"><i class="icon-edit text-16"></i></a>
+                              </div>
+
+                              <img src="img/avatars/small/1.png" alt="image" class="size-40">
+                              <div class="text-dark-1 ml-10">Jenny Wilson</div>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="text-dark-1">alitfn@example.com</div>
+                          </div>
+
+
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
+                            </div>
+                          </div>
+
+                        </div>
+
+
+                        <div class="row y-gap-20 justify-between items-center border-top-light pt-20 mt-20">
+
+                          <div class="col-xl-3">
+                            <div class="d-flex items-center">
+                              <div class="d-flex x-gap-10 items-center mr-30">
+                                <a href="#"><i class="icon-calendar text-16"></i></a>
+                                <a href="#"><i class="icon-edit text-16"></i></a>
+                              </div>
+
+                              <img src="img/avatars/small/1.png" alt="image" class="size-40">
+                              <div class="text-dark-1 ml-10">Jenny Wilson</div>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="text-dark-1">alitfn@example.com</div>
+                          </div>
+
+
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-2">
+                            <div class="d-flex justify-end">
+                              <a href="#"><i class="icon-zoom-in text-20"></i></a>
+                            </div>
+                          </div>
+
+                        </div>
+
                       </div>
                     </div>
                   </div>
