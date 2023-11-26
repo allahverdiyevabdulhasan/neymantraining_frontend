@@ -1,4 +1,4 @@
-1.event-list-1.html səhifəsini düzəldərsən.
+1.event.html səhifəsini düzəldərsən.
 dasbord bölümü tələbə və tələbə üçün bölünür iki yerə.
 dshb yazılan hər birin iki yerə bölmək lazımdır sonra dəyişmək lazımdır için.
 ancaq Bookmarked hissəsi müəllimlər üçün olan yerdə olmayacaq. tələbələr üçün olacaq

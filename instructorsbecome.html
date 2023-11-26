@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
     crossorigin="" />
+
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/vendors.css">
   <link rel="stylesheet" href="css/main.css">
@@ -76,19 +77,19 @@
                         <a data-barba href="about.html">Haqqımızda</a>
                       </li>
                       <li>
-                        <a data-barba href="courses-list-1.html">Kurslar</a>
+                        <a data-barba href="courses.html">Kurslar</a>
                       </li>
                       <li>
-                        <a data-barba href="instructors-list-2.html">Təlimçilər</a>
+                        <a data-barba href="instructors.html">Təlimçilər</a>
                       </li>
                       <li>
-                        <a data-barba href="about.html">Kateqoriyalar</a>
+                        <a data-barba href="category.html">Kateqoriyalar</a>
                       </li>
                       <li>
                         <a data-barba href="pricing.html">Endirim </a>
                       </li>
                       <li>
-                        <a data-barba href="contact-2.html">Əlaqə</a>
+                        <a data-barba href="contact.html">Əlaqə</a>
                       </li>
                     </ul>
                   </div>
@@ -255,7 +256,7 @@
     <div class="content-wrapper  js-content-wrapper">
 
 
-      <section data-anim="fade" class="breadcrumbs " style="padding-top: 60px;">
+      <section data-anim="fade" class="breadcrumbs ">
         <div class="container">
           <div class="row">
             <div class="col-auto">
@@ -291,13 +292,13 @@
               <div class="col-auto">
                 <div data-anim="slide-up delay-1">
 
-                  <h1 class="page-header__title">Blog</h1>
+                  <h1 class="page-header__title">Müəllim Ol</h1>
 
                 </div>
 
                 <div data-anim="slide-up delay-2">
 
-                  <p class="page-header__text">Blog bölümümüzü oxuyaraq yeni məlumatlardan xəbərdar olmuş ola bilərsiniz.</p>
+                  <p class="page-header__text">Biz münasib qiymətə, seçilmiş kurslar təqdim etmək missiyasındayıq.</p>
 
                 </div>
               </div>
@@ -306,123 +307,276 @@
         </div>
       </section>
 
+
+      <section class=" layout-pb-lg">
+        <div class="container">
+          <div class="row justify-center">
+            <div class="col-xl-8 col-lg-9 col-md-11">
+              <div class="tabs -active-purple-2 js-tabs">
+                <div class="tabs__controls d-flex js-tabs-controls">
+                  <button class="tabs__button js-tabs-button is-active" data-tab-target=".-tab-item-1" type="button">
+                    Təlimçi Ol
+                  </button>
+                  <button class="tabs__button js-tabs-button ml-30" data-tab-target=".-tab-item-2" type="button">
+                    Təlimatçı Qaydaları
+                  </button>
+                  <button class="tabs__button js-tabs-button ml-30" data-tab-target=".-tab-item-3" type="button">
+                    Kurslara Başlayın
+                  </button>
+                </div>
+
+                <div class="tabs__content pt-60 lg:pt-40 js-tabs-content">
+                  <div class="tabs__pane -tab-item-1 is-active">
+                    <p class="text-light-1">
+                      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                      <br><br>
+                      Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                    </p>
+                  </div>
+                  <div class="tabs__pane -tab-item-2">
+                    <p class="text-light-1">
+                      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                    </p>
+                  </div>
+                  <div class="tabs__pane -tab-item-3">
+                    <p class="text-light-1">
+                      Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row y-gap-30 justify-between layout-pt-lg">
+
+            <div class="col-lg-3 col-md-6">
+              <div class="coursesCard -type-2 text-center pt-50 pb-40 px-30 bg-white rounded-8">
+                <div class="coursesCard__image">
+                  <img src="img/home-5/learning/1.svg" alt="image">
+                </div>
+                <div class="coursesCard__content mt-30">
+                  <h5 class="coursesCard__title text-18 lh-1 fw-500">Learn with Experts</h5>
+                  <p class="coursesCard__text text-14 mt-10">Grursus mal suada faci lisis that ipsum ameti consecte.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="coursesCard -type-2 text-center pt-50 pb-40 px-30 bg-white rounded-8">
+                <div class="coursesCard__image">
+                  <img src="img/home-5/learning/2.svg" alt="image">
+                </div>
+                <div class="coursesCard__content mt-30">
+                  <h5 class="coursesCard__title text-18 lh-1 fw-500">Learn Anything</h5>
+                  <p class="coursesCard__text text-14 mt-10">Grursus mal suada faci lisis that ipsum ameti consecte.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="coursesCard -type-2 text-center pt-50 pb-40 px-30 bg-white rounded-8">
+                <div class="coursesCard__image">
+                  <img src="img/home-5/learning/3.svg" alt="image">
+                </div>
+                <div class="coursesCard__content mt-30">
+                  <h5 class="coursesCard__title text-18 lh-1 fw-500">Flexible Learning</h5>
+                  <p class="coursesCard__text text-14 mt-10">Grursus mal suada faci lisis that ipsum ameti consecte.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="coursesCard -type-2 text-center pt-50 pb-40 px-30 bg-white rounded-8">
+                <div class="coursesCard__image">
+                  <img src="img/home-5/learning/4.svg" alt="image">
+                </div>
+                <div class="coursesCard__content mt-30">
+                  <h5 class="coursesCard__title text-18 lh-1 fw-500">Industrial Standart</h5>
+                  <p class="coursesCard__text text-14 mt-10">Grursus mal suada faci lisis that ipsum ameti consecte.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="layout-pt-lg layout-pb-md bg-light-4">
+        <div data-anim-wrap class="container">
+          <div class="row y-gap-50 justify-between items-center">
+            <div class="col-lg-7 pr-60">
+              <img src="img/become-ins/1.png" alt="image">
+            </div>
+
+            <div class="col-lg-5">
+              <h2 class="text-45 lh-15">Become an Instructor <span class="text-purple-1">Today</span></h2>
+              <p class="text-dark-1 mt-25">Use the list below to bring attention to your product’s key<br> differentiator.</p>
+              <div class="d-inline-block mt-30">
+                <a href="instructorsbecome.html" class="button -md -dark-1 text-white">Join Our Team</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="page-header -type-4 bg-beige-1">
+        <div class="container">
+          <div class="page-header__content">
+            <div class="row">
+              <div class="col-auto">
+                <div data-anim="slide-up delay-1">
+                  <h1 class="page-header__title">Əlaqə</h1>
+                </div>
+
+                <div data-anim="slide-up delay-2">
+                  <p class="page-header__text">Bizimlə əlaqə saxlayın.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section class="layout-pt-md layout-pb-lg">
         <div data-anim-wrap class="container">
-          <div class="row">
-            <div class="col-lg-9">
-              <div class="row y-gap-30">
+          <div class="row y-gap-50 justify-between">
+            <div class="col-xl-5 col-lg-6">
+              <h3 class="text-24 lh-1 fw-500">Biz bütün dünyadayıq.</h3>
+              <div class="row y-gap-30 pt-40">
 
-              
-
-                <div data-anim-child="slide-up delay-3" class="col-lg-4 col-md-6">
-                  <a href="blog-single.html" class="blogCard -type-1">
-                    <div class="blogCard__image">
-                      <img class="w-1/1 rounded-8" src="img/blog-list/9.png" alt="image">
-                    </div>
-                    <div class="blogCard__content mt-20">
-                      <div class="blogCard__category">EDUCATION</div>
-                      <h4 class="blogCard__title text-18 lh-15 fw-500 mt-5">19 ways to optimize your ad marketing budget efficiently</h4>
-                      <div class="blogCard__date mt-5">December 16, 2022</div>
-                    </div>
-                  </a>
-                </div>
-
-
-              </div>
-
-              <div class="row justify-center pt-60 lg:pt-40">
-                <div class="col-auto">
-                  <div class="pagination -buttons">
-                    <button class="pagination__button -prev">
-                      <i class="icon icon-chevron-left"></i>
-                    </button>
-
-                    <div class="pagination__count">
-                      <a href="#">1</a>
-                      <a class="-count-is-active" href="#">2</a>
-                      <a href="#">3</a>
-                      <span>...</span>
-                      <a href="#">67</a>
-                    </div>
-
-                    <button class="pagination__button -next">
-                      <i class="icon icon-chevron-right"></i>
-                    </button>
+                <div class="col-sm-6">
+                  <div class="text-20 fw-500 text-dark-1">Azərbaycan</div>
+                  <div class="y-gap-10 pt-15">
+                    <a href="#" class="d-block">Bakı, Abşeron</a>
+                    <a href="#" class="d-block">+(1) 123 456 7890</a>
+                    <a href="#" class="d-block">hr@aze.com</a>
                   </div>
                 </div>
+
+                <div class="col-sm-6">
+                  <div class="text-20 fw-500 text-dark-1">Türkiyə</div>
+                  <div class="y-gap-10 pt-15">
+                    <a href="#" class="d-block">İstanbul, Caddebostan Mh., Bağdat Caddesi 325</a>
+                    <a href="#" class="d-block">+(1) 123 456 7890</a>
+                    <a href="#" class="d-block">hr@tr.com</a>
+                  </div>
+                </div>
+
               </div>
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-6">
+              <div class="px-40 py-40 bg-white border-light shadow-1 rounded-8 contact-form-to-top">
+                <h3 class="text-24 fw-500">Mesaj Göndərin</h3>
+                <p class="mt-25">Biz sizinlə əlaqə saxlayacayıq.</p>
 
-              <div data-anim="slide-up delay-3" class="sidebar -blog">
-                <div class="sidebar__item">
-                  <h5 class="sidebar__title">Kateqoriyalar</h5>
-
-                  <div class="sidebar-content -list scrool_auto">
-
-                    <a class="text-dark-1" href="#">Marketinq</a>
-
-                    <a class="text-dark-1" href="#">İT</a>
-
-                    <a class="text-dark-1" href="#">Satış</a>
-
-                    
-
+                <form class="contact-form row y-gap-30 pt-60 lg:pt-40" action="#">
+                  <div class="col-12">
+                    <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Adınız, Soyadınız</label>
+                    <input type="text" name="title" placeholder="Adınızı və Soyadınızı yazın!..">
                   </div>
-                </div>
-
-                <div class="sidebar__item scrool_auto_recent">
-                  <h5 class="sidebar__title">Digər postlar</h5>
-
-                  <div class="sidebar-content -recent y-gap-20">
-
-                    <div class="sidebar-recent d-flex items-center">
-                      <div class="sidebar-recent__image mr-15">
-                        <img src="img/blog-list/1.png" alt="image">
-                      </div>
-
-                      <div class="sidebar-recent__content">
-                        <a href="blog-list-2.html" class="text-15 lh-15 fw-500">Marketinq esaslari</a>
-                        <div class="text-13 lh-1 mt-5">April 13, 2022</div>
-                      </div>
-                    </div>
-
-                    
-
+                  <div class="col-12">
+                    <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Email ünvanı</label>
+                    <input type="text" name="title" placeholder="Email ünvanınızı yazın!..">
                   </div>
-                </div>
-
-                <div class="sidebar__item">
-                  <h5 class="sidebar__title">Teqlər</h5>
-
-                  <div class="sidebar-content -tags">
-
-                    <div class="sidebar-tag">
-                      <a class="text-11 fw-500 text-dark-1" href="#">marketinq</a>
-                    </div>
-
-                   
-
-                    
-
+                  <div class="col-12">
+                    <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Əlaqə nömrəsi</label>
+                    <input type="number" name="title" placeholder="Nömrənizi yazın!...">
                   </div>
-                </div>
+                  <div class="col-12">
+                    <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">CV-nizi əlavə edin</label>
+                    <input type="file" name="title" placeholder="Cv nizi əlavə edin!...">
+                  </div>
+                  <div class="col-12">
+                    <label class="text-16 lh-1 fw-500 text-dark-1 mb-10">Mesajınız</label>
+                    <textarea name="comment" placeholder="Mesajınızı yazın!.." rows="8"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" name="submit" id="submit" class="button -md -purple-1 text-white">
+                      Mesaj Göndərin
+                    </button>
+                  </div>
+                </form>
               </div>
-
             </div>
           </div>
         </div>
       </section>
 
-      <footer class="footer -type-1 bg-purple-1">
+      <section class="layout-pt-lg layout-pb-lg">
+        <div data-anim-wrap class="container">
+          <div data-anim-child="slide-left delay-1" class="row y-gap-20 justify-between items-center">
+            <div class="col-lg-6">
+
+              <div class="sectionTitle ">
+
+                <h2 class="sectionTitle__title ">Ən yaxşı müəllimlərdən öyrənin.</h2>
+
+                <p class="sectionTitle__text ">İndi başlayın.</p>
+
+              </div>
+
+            </div>
+
+            <div class="col-auto">
+
+              <a href="instructors-list-1.html" class="button -icon -purple-3 text-purple-1">
+                View All Instructors
+                <i class="icon-arrow-top-right text-13 ml-10"></i>
+              </a>
+
+            </div>
+          </div>
+
+          <div class="row y-gap-30 pt-50">
+
+            <div class="col-lg-3 col-md-6">
+              <div data-anim-child="slide-left delay-2" class="teamCard -type-1">
+                <div class="teamCard__image">
+                  <img src="img/team/1.png" alt="image">
+                </div>
+                <div class="teamCard__content">
+                  <h4 class="teamCard__title">Floyd Miles</h4>
+                  <p class="teamCard__text">President of Sales</p>
+                  <div class="d-flex x-gap-10 pt-10">
+                    <div class="d-flex items-center">
+                      <div class="icon-star text-yellow-1 text-14"></div>
+                      <div class="text-13 lh-1 ml-8">4.5</div>
+                    </div>
+
+                    <div class="d-flex items-center">
+                      <div class="icon-person-3 text-14"></div>
+                      <div class="text-13 lh-1 ml-8">692 Students</div>
+                    </div>
+
+                    <div class="d-flex items-center">
+                      <div class="icon-play text-14"></div>
+                      <div class="text-13 lh-1 ml-8">15 Course</div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row justify-center text-center pt-60 lg:pt-40">
+            <div class="col-auto">
+              <p class="lh-1">İnsanlara öyrətməyə, həyatda daha çox şey əldə etməyə kömək etmək istəyirsiniz? <a class="text-purple-1 underline" href="instructorsbecome.html">O zaman müəllim ol.</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer -type-1 bg-dark-1 -green-links">
         <div class="container">
           <div class="footer-header">
             <div class="row y-gap-20 justify-between items-center">
               <div class="col-auto">
                 <div class="footer-header__logo">
-                  <img src="img/general/logo-pure-white.svg" alt="logo">
+                  <img src="img/footer/footer-logo.svg" alt="logo">
                 </div>
               </div>
               <div class="col-auto">
@@ -438,7 +592,7 @@
               </div>
             </div>
           </div>
-  
+
           <div class="footer-columns">
             <div class="row y-gap-30">
               <div class="col-xl-2 col-lg-4 col-md-6">
@@ -452,14 +606,14 @@
                   <a href="contact-1.html">Contact Us</a>
                 </div>
               </div>
-  
+
               <div class="col-xl-4 col-lg-8">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084107.1620060466!2d47.85890011718751!3d40.98534771805446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2zQmFrxLE!5e0!3m2!1saz!2saz!4v1700212702016!5m2!1saz!2saz"
                   width="450" height="260" style="border:0;" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
-  
+
               <div class="col-xl-2 offset-xl-1 col-lg-4 col-md-6">
                 <div class="text-17 fw-500 text-white uppercase mb-25">SUPPORT</div>
                 <div class="d-flex y-gap-10 flex-column">
@@ -469,7 +623,7 @@
                   <a href="contact-1.html">Contact</a>
                 </div>
               </div>
-  
+
               <div class="col-xl-3 col-lg-4 col-md-6">
                 <div class="text-17 fw-500 text-white uppercase mb-25">GET IN TOUCH</div>
                 <div class="footer-columns-form">
@@ -484,7 +638,7 @@
               </div>
             </div>
           </div>
-  
+
           <div class="py-30 border-top-light-15">
             <div class="row justify-between items-center y-gap-20">
               <div class="col-auto">
@@ -492,7 +646,7 @@
                   © 2022 Educrat. All Right Reserved.
                 </div>
               </div>
-  
+
               <div class="col-auto">
                 <div class="d-flex x-gap-20 y-gap-20 items-center flex-wrap">
                   <div>
@@ -504,7 +658,7 @@
                       <a href="terms.html">Terms of Use</a>
                     </div>
                   </div>
-  
+
                   <div>
                     <a href="#" class="button px-30 h-50 -dark-6 rounded-200 text-white">
                       <i class="icon-worldwide text-20 mr-15"></i><span class="text-15">English</span>

@@ -3617,10 +3617,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .blogCard.-type-1 .blogCard__title {
   margin-top: 10px;
-  font-size: 19px;
-  line-height: 36px;
+  font-size: 15px;
+  line-height: 20px;
   font-weight: 500;
   color: #242239;
+  overflow-y: auto;
+  height: 70px;
 }
 
 .blogCard.-type-1 .blogCard__date {
@@ -3659,9 +3661,11 @@ h1, h2, h3, h4, h5, h6 {
 .blogCard.-type-2 .blogCard__title {
   margin-top: 10px;
   color: #242239;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 20px;
+  overflow-y: auto;
+  height: 70px;
 }
 
 .blogCard.-type-2 .blogCard__date {
@@ -8249,9 +8253,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-.input-counter input[type=number] {
+/* .input-counter input[type=number] {
   -moz-appearance: textfield;
-}
+} */
 
 .input-counter__counter {
   z-index: 5;

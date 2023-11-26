@@ -375,22 +375,22 @@
                 <div class="row justify-between y-gap-20">
                   <div class="col-md-6">
                     <div class="d-flex y-gap-10 flex-column">
-                      <a href="courses-single-4.html">Development</a>
+                      <a href="coursdetail.html">Development</a>
                       <a href="courses-single-2.html">Business</a>
                       <a href="courses-single-3.html">Finance & Accounting</a>
-                      <a href="courses-single-4.html">IT & Software</a>
+                      <a href="coursdetail.html">IT & Software</a>
                       <a href="courses-single-5.html">Office Productivity</a>
                       <a href="courses-single-6.html">Design</a>
-                      <a href="courses-single-4.html">Marketing</a>
+                      <a href="coursdetail.html">Marketing</a>
                     </div>
                   </div>
 
                   <div class="col-md-6">
                     <div class="d-flex y-gap-10 flex-column">
-                      <a href="courses-single-4.html">Lifiestyle</a>
+                      <a href="coursdetail.html">Lifiestyle</a>
                       <a href="courses-single-2.html">Photography & Video</a>
                       <a href="courses-single-3.html">Health & Fitness</a>
-                      <a href="courses-single-4.html">Music</a>
+                      <a href="coursdetail.html">Music</a>
                       <a href="courses-single-5.html">UX Design</a>
                       <a href="courses-single-6.html">Seo</a>
                     </div>
@@ -528,7 +528,7 @@
 
                   <div class="priceCard__button mt-30">
 
-                    <a class="button -md -purple-3 text-purple-1" href="courses-list-1.html">Get Started Now</a>
+                    <a class="button -md -purple-3 text-purple-1" href="courses.html">Get Started Now</a>
 
                   </div>
                 </div>
@@ -584,7 +584,7 @@
 
                   <div class="priceCard__button mt-30">
 
-                    <a class="button -md -white text-purple-1" href="courses-list-1.html">Get Started Now</a>
+                    <a class="button -md -white text-purple-1" href="courses.html">Get Started Now</a>
 
                   </div>
                 </div>
@@ -640,7 +640,7 @@
 
                   <div class="priceCard__button mt-30">
 
-                    <a class="button -md -purple-3 text-purple-1" href="courses-list-1.html">Get Started Now</a>
+                    <a class="button -md -purple-3 text-purple-1" href="courses.html">Get Started Now</a>
 
                   </div>
                 </div>
@@ -721,7 +721,7 @@
 
                 <div class="side-content col-xl-4 col-lg-6 col-md-4 col-sm-6">
 
-                  <a href="courses-single-4.html" class="coursesCard -type-1 ">
+                  <a href="coursdetail.html" class="coursesCard -type-1 ">
                     <div class="relative">
                       <div class="coursesCard__image overflow-hidden rounded-8">
                         <img class="w-1/1" src="img/coursesCards/2.png" alt="image">
@@ -896,7 +896,7 @@
 
                 <div class="side-content col-xl-4 col-lg-6 col-md-4 col-sm-6">
 
-                  <a href="courses-single-4.html" class="coursesCard -type-1 ">
+                  <a href="coursdetail.html" class="coursesCard -type-1 ">
                     <div class="relative">
                       <div class="coursesCard__image overflow-hidden rounded-8">
                         <img class="w-1/1" src="img/coursesCards/3.png" alt="image">
@@ -1059,7 +1059,7 @@
 
                 <div class="side-content col-xl-4 col-lg-6 col-md-4 col-sm-6">
 
-                  <a href="courses-single-4.html" class="coursesCard -type-1 ">
+                  <a href="coursdetail.html" class="coursesCard -type-1 ">
                     <div class="relative">
                       <div class="coursesCard__image overflow-hidden rounded-8">
                         <img class="w-1/1" src="img/coursesCards/4.png" alt="image">
@@ -1222,7 +1222,7 @@
 
                 <div class="side-content col-xl-4 col-lg-6 col-md-4 col-sm-6">
 
-                  <a href="courses-single-4.html" class="coursesCard -type-1 ">
+                  <a href="coursdetail.html" class="coursesCard -type-1 ">
                     <div class="relative">
                       <div class="coursesCard__image overflow-hidden rounded-8">
                         <img class="w-1/1" src="img/coursesCards/5.png" alt="image">
@@ -1385,7 +1385,7 @@
 
                 <div class="side-content col-xl-4 col-lg-6 col-md-4 col-sm-6">
 
-                  <a href="courses-single-4.html" class="coursesCard -type-1 ">
+                  <a href="coursdetail.html" class="coursesCard -type-1 ">
                     <div class="relative">
                       <div class="coursesCard__image overflow-hidden rounded-8">
                         <img class="w-1/1" src="img/coursesCards/6.png" alt="image">
@@ -1548,7 +1548,7 @@
 
                 <div class="side-content col-xl-4 col-lg-6 col-md-4 col-sm-6">
 
-                  <a href="courses-single-4.html" class="coursesCard -type-1 ">
+                  <a href="coursdetail.html" class="coursesCard -type-1 ">
                     <div class="relative">
                       <div class="coursesCard__image overflow-hidden rounded-8">
                         <img class="w-1/1" src="img/coursesCards/7.png" alt="image">
@@ -1711,7 +1711,7 @@
 
                 <div class="side-content col-xl-4 col-lg-6 col-md-4 col-sm-6">
 
-                  <a href="courses-single-4.html" class="coursesCard -type-1 ">
+                  <a href="coursdetail.html" class="coursesCard -type-1 ">
                     <div class="relative">
                       <div class="coursesCard__image overflow-hidden rounded-8">
                         <img class="w-1/1" src="img/coursesCards/8.png" alt="image">
@@ -1874,7 +1874,7 @@
 
                 <div class="side-content col-xl-4 col-lg-6 col-md-4 col-sm-6">
 
-                  <a href="courses-single-4.html" class="coursesCard -type-1 ">
+                  <a href="coursdetail.html" class="coursesCard -type-1 ">
                     <div class="relative">
                       <div class="coursesCard__image overflow-hidden rounded-8">
                         <img class="w-1/1" src="img/coursesCards/9.png" alt="image">
@@ -2037,7 +2037,7 @@
 
                 <div class="side-content col-xl-4 col-lg-6 col-md-4 col-sm-6">
 
-                  <a href="courses-single-4.html" class="coursesCard -type-1 ">
+                  <a href="coursdetail.html" class="coursesCard -type-1 ">
                     <div class="relative">
                       <div class="coursesCard__image overflow-hidden rounded-8">
                         <img class="w-1/1" src="img/coursesCards/10.png" alt="image">
@@ -2200,7 +2200,7 @@
 
                 <div class="side-content col-xl-4 col-lg-6 col-md-4 col-sm-6">
 
-                  <a href="courses-single-4.html" class="coursesCard -type-1 ">
+                  <a href="coursdetail.html" class="coursesCard -type-1 ">
                     <div class="relative">
                       <div class="coursesCard__image overflow-hidden rounded-8">
                         <img class="w-1/1" src="img/coursesCards/11.png" alt="image">
@@ -2363,7 +2363,7 @@
 
                 <div class="side-content col-xl-4 col-lg-6 col-md-4 col-sm-6">
 
-                  <a href="courses-single-4.html" class="coursesCard -type-1 ">
+                  <a href="coursdetail.html" class="coursesCard -type-1 ">
                     <div class="relative">
                       <div class="coursesCard__image overflow-hidden rounded-8">
                         <img class="w-1/1" src="img/coursesCards/12.png" alt="image">
