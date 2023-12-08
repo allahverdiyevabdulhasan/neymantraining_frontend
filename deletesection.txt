@@ -2526,6 +2526,20 @@
 ----------------------------------COURSE LIST SECTİON END--------------------------------
 
 
+----------------------------------Search--------------------------------
+
+                <div class="header-search-field">
+                  <form action="#">
+                    <div class="header-search-field__group">
+                      <input type="text" placeholder="What do you want to learn?">
+                      <button type="submit">
+                        <i class="icon icon-search"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+
+
 
 
 

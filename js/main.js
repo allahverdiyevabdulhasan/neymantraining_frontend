@@ -1226,7 +1226,7 @@ const Header = (function() {
   let timeline = gsap.timeline();
 
   function updateVars() {
-    // menu = document.querySelector('.js-menu');
+    menu = document.querySelector('.js-menu');
     // mobileBg = menu.querySelector('.js-mobile-bg');
     // mobileFooter = menu.querySelector('.js-mobile-footer');
     navList = document.querySelector('.js-navList');

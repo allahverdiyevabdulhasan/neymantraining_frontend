@@ -10886,6 +10886,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 30px !important;
 }
 
+.pl-150{
+  padding-left: 150px !important;
+}
+
 .pr-30 {
   padding-right: 30px !important;
 }
